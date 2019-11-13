@@ -9,42 +9,34 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 export class NavbarHome extends React.Component {
 	render() {
 		return (
-			<Navbar bg="primary" expand="lg">
-				<div className="container">
-					<Navbar.Brand className="ml-3" href="#home">
+			<React.Fragment>
+				<Navbar bg="light" expand="lg">
+					<Navbar.Brand className="m-auto" href="#home">
 						NewsLatinoToday
 						<i className="far fa-newspaper" />
 					</Navbar.Brand>
+				</Navbar>
+				<Navbar bg="light" expand="lg">
 					<Navbar.Toggle aria-controls="basic-navbar-nav" />
 					<Navbar.Collapse id="basic-navbar-nav">
-						<Nav className="ml-auto">
+						<Nav>
 							<Nav.Link href="#home">
-								<div>INICIO</div>
+								<div>COMUNIDAD</div>
 							</Nav.Link>
 							<Nav.Link href="#nosotros">
-								<div>NOSOTROS</div>
+								<div>DEPORTES</div>
 							</Nav.Link>
-							<Nav.Link href="#contacto">CONTACTO</Nav.Link>
+							<Nav.Link href="#contacto">NOTICIAS</Nav.Link>
 							<Nav.Link href="#galeria">
-								<div>GALERÍA</div>
+								<div>SPONSORS</div>
+							</Nav.Link>
+							<Nav.Link href="#galeria">
+								<div>APOYA A NEWS LATINO TODAY</div>
 							</Nav.Link>
 						</Nav>
 					</Navbar.Collapse>
-				</div>
-			</Navbar>
-			// <Navbar bg="primary" variant="dark">
-			// 	<Navbar.Brand href="#home">NewsLatinoToday</Navbar.Brand>
-			// 	<Nav className="container">
-			// 		<Nav.Link href="#inicio">INICIO/HOME</Nav.Link>
-			// 		<Nav.Link href="#nosotros">NOSOTROS/ABOUT US</Nav.Link>
-			// 		<Nav.Link href="#contacto">CONTACTO/CONTACT US</Nav.Link>
-			// 		<Nav.Link href="#galeria">GALERÍA/GALLERY</Nav.Link>
-			// 	</Nav>
-			// 	{/* <Form inline>
-			// 		<FormControl type="text" placeholder="Search" className="mr-sm-2" />
-			// 		<Button variant="outline-light">Search</Button>
-			// 	</Form> */}
-			// </Navbar>
+				</Navbar>
+			</React.Fragment>
 		);
 	}
 }

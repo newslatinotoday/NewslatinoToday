@@ -1,31 +1,38 @@
 
-
-.navbar-nav{
-// padding-left: 147px;
-font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-        font-size: 14px;
+.navbar-nav {
+    // font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 100%;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    
+    
+    
+    margin: auto;
 }
+.navbar-expand-lg {
+    padding-left: 0px;
+    padding-right: 0px;}
+.navbar-expand-lg .navbar-collapse {
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+    }
 .navbar-expand-lg .navbar-nav .nav-link {
-
-    padding-right: 4.5rem;
-        padding-left: 1.5rem;
-
-    color: white;
+    color: black;
+    padding-right: 56px;
 }
-.navbar{
-    line-height: 2;
 
-}
 .card-img-top {
     width: 100%;
     padding: 1px;}
 
 .navbar-light .navbar-brand {
-    color: white;
-    font-size: 32px;
+    padding: 20px;
+    color: #00adff !important;
+    font-size: 50px;
     font-weight: 900;
-
+margin: auto;
 font-family: 'Poppins', sans-serif;
 }
 .textspam{
@@ -47,8 +54,8 @@ font-size: 30px;
 //     text-transform: uppercase;
 //     font-size: 2em;
 //     font-weight: bold;}
-.bg-primary {
-    background-color: #00adff !important;
+.bg-light {
+    background-color: #f8f9fa00 !important;
 }
 .homespam{
 font-family: suecaslabmedium,Georgia,"serif";
