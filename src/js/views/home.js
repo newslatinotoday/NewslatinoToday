@@ -20,6 +20,8 @@ export const Home = () => (
 							<span className="lefttextspam">
 								<strong>
 									Ibrahimovic se despidió de Los Ángeles Galaxy y los mandó {"a ver béisbol"}
+									<br />
+									<span className="secciones">DEPORTES</span>
 								</strong>
 							</span>
 							<br />
@@ -42,6 +44,8 @@ export const Home = () => (
 								<strong>
 									Angelici, el Mundial de Clubes, el palito a la oposición y las declaraciones de
 									Alfaro
+									<br />
+									<span className="secciones">DEPORTES</span>
 								</strong>
 							</span>
 						</CardBody>
@@ -70,38 +74,70 @@ export const Home = () => (
 								Congreso comparecieron dos veteranos diplomáticos: William Taylor, actualmente encargado
 								de negocios en Ucrania, y George Kent, subsecretario adjunto de Asuntos Europeos y
 								Euroasiáticos.
+								<br />
+								<span className="secciones">NOTICIAS</span>
 							</span>
 						</CardBody>
 					</Card>
 				</div>
 				<div className="col-sm-3">
-					<Card>
-						<CardBody>
-							<span className="righttextspam">
-								<strong>
-									LATINO CONDUCÍA EBRIO, CHOCÓ Y MATÓ A UNA ANCIANA E HIRIÓ A 5 PERSONAS, LE DECIAN EL
-									POCHI LOCO.
-								</strong>
-							</span>
-						</CardBody>
-					</Card>
-					<Card>
-						<CardBody>
-							<span className="righttextspam">
-								<strong>WINSTON-SALEM, NC ENTRE LAS PEORES CIUDADES PARA SOLTEROS EN EEUU</strong>
-							</span>
-						</CardBody>
-					</Card>
-					<Card>
-						<CardBody>
-							<span className="righttextspam">
-								<strong>
-									TODO LISTO PARA LA SÉPTIMA EXHIBICIÓN ANUAL DE AUTOMÓVILES AMERICARNA LIVE EN
-									DAVIDSON
-								</strong>
-							</span>
-						</CardBody>
-					</Card>
+					<ul>
+						{/* <div className="row rowderecha"> */}
+						<li>
+							<div className="box">
+								<Card>
+									<div className="hidden-sm hidden-md textandphoto">
+										<div className="left float-left">
+											<CardImg
+												top
+												src="http://www.laconexionusa.com/fotosnoticias/p/voto.jpg"
+												width="50"
+												height="75"
+												alt="Card image cap"
+											/>
+										</div>
+										{/* <CardBody> */}
+										<div className="right float-right">
+											<span className="righttextspam">
+												<strong>
+													Liga de mujeres votantes decepcionados con el proceso ... <br />
+												</strong>
+											</span>
+										</div>
+										{/* </CardBody> */}
+									</div>
+								</Card>
+								<div>
+									<span className="secciones float-left">NOTICIAS</span>
+									<span className="date float-right"> Nov. 13, 2019</span>
+								</div>
+							</div>
+						</li>
+						{/* </div> */}
+						<li>
+							<Card>
+								<CardBody>
+									<span className="righttextspam">
+										<strong>
+											WINSTON-SALEM, NC ENTRE LAS PEORES CIUDADES PARA SOLTEROS EN EEUU
+										</strong>
+									</span>
+								</CardBody>
+							</Card>
+						</li>
+						<li>
+							<Card>
+								<CardBody>
+									<span className="righttextspam">
+										<strong>
+											TODO LISTO PARA LA SÉPTIMA EXHIBICIÓN ANUAL DE AUTOMÓVILES AMERICARNA LIVE
+											EN DAVIDSON
+										</strong>
+									</span>
+								</CardBody>
+							</Card>
+						</li>
+					</ul>
 				</div>
 			</div>
 
