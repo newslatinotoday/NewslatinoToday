@@ -86,57 +86,96 @@ export const Home = () => (
 						<li>
 							<div className="box">
 								<Card>
-									<div className="hidden-sm hidden-md textandphoto">
-										<div className="left float-left">
-											<CardImg
-												top
-												src="http://www.laconexionusa.com/fotosnoticias/p/voto.jpg"
-												width="50"
-												height="75"
-												alt="Card image cap"
-											/>
-										</div>
+									<div className="textandphoto">
 										{/* <CardBody> */}
-										<div className="right float-right">
-											<span className="righttextspam">
+										<div className="">
+											<span className="">
 												<strong>
 													Liga de mujeres votantes decepcionados con el proceso ... <br />
 												</strong>
 											</span>
 										</div>
+										{/* <div className="left float-right"> */}
+										{/* <CardImg
+											top
+											src="http://www.laconexionusa.com/fotosnoticias/p/voto.jpg"
+											width="50"
+											height="75"
+											alt="Card image cap"
+										/>*/}
+										{/* </div> */}
 										{/* </CardBody> */}
 									</div>
+									<div>
+										<span className="secciones float-left">NOTICIAS</span>
+										<span className="date float-right"> Nov. 13, 2019</span>
+									</div>
 								</Card>
-								<div>
-									<span className="secciones float-left">NOTICIAS</span>
-									<span className="date float-right"> Nov. 13, 2019</span>
-								</div>
+							</div>
+						</li>
+						<li>
+							<div className="box">
+								<Card>
+									<div className="textandphoto">
+										{/* <CardBody> */}
+										<div className="">
+											<span className="">
+												<strong>
+													la ciudad de durham responde al derrame de alcantarillado en 33
+													janee lane ... <br />
+												</strong>
+											</span>
+										</div>
+										{/* <div className="left float-right"> */}
+										{/* <CardImg
+											top
+											src="http://www.laconexionusa.com/fotosnoticias/p/voto.jpg"
+											width="50"
+											height="75"
+											alt="Card image cap"
+										/>*/}
+										{/* </div> */}
+										{/* </CardBody> */}
+									</div>
+									<div>
+										<span className="secciones float-left">COMUNIDAD</span>
+										<span className="date float-right"> Nov. 13, 2019</span>
+									</div>
+								</Card>
+							</div>
+						</li>
+						<li>
+							<div className="box">
+								<Card>
+									<div className="textandphoto">
+										{/* <CardBody> */}
+										<div className="">
+											<span className="">
+												<strong>
+													miembros de liga de mujeres votantes de wake serán enviadas a las
+													naciones unidas... <br />
+												</strong>
+											</span>
+										</div>
+										{/* <div className="left float-right"> */}
+										{/* <CardImg
+											top
+											src="http://www.laconexionusa.com/fotosnoticias/p/voto.jpg"
+											width="50"
+											height="75"
+											alt="Card image cap"
+										/>*/}
+										{/* </div> */}
+										{/* </CardBody> */}
+									</div>
+									<div>
+										<span className="secciones float-left">COMUNIDAD</span>
+										<span className="date float-right"> Nov. 13, 2019</span>
+									</div>
+								</Card>
 							</div>
 						</li>
 						{/* </div> */}
-						<li>
-							<Card>
-								<CardBody>
-									<span className="righttextspam">
-										<strong>
-											WINSTON-SALEM, NC ENTRE LAS PEORES CIUDADES PARA SOLTEROS EN EEUU
-										</strong>
-									</span>
-								</CardBody>
-							</Card>
-						</li>
-						<li>
-							<Card>
-								<CardBody>
-									<span className="righttextspam">
-										<strong>
-											TODO LISTO PARA LA SÉPTIMA EXHIBICIÓN ANUAL DE AUTOMÓVILES AMERICARNA LIVE
-											EN DAVIDSON
-										</strong>
-									</span>
-								</CardBody>
-							</Card>
-						</li>
 					</ul>
 				</div>
 			</div>
