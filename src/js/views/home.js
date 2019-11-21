@@ -75,12 +75,14 @@ export const Home = () => (
 								de negocios en Ucrania, y George Kent, subsecretario adjunto de Asuntos Europeos y
 								Euroasiáticos.
 								<br />
-								<span className="secciones">NOTICIAS</span>
 							</span>
+							<strong>
+								<span className="secciones">NOTICIAS</span>
+							</strong>
 						</CardBody>
 					</Card>
 				</div>
-				<div className="col-sm-3">
+				<div className="derechaRow col-sm-3">
 					<ul>
 						{/* <div className="row rowderecha"> */}
 						<li>
@@ -90,9 +92,8 @@ export const Home = () => (
 										{/* <CardBody> */}
 										<div className="">
 											<span className="">
-												<strong>
-													Liga de mujeres votantes decepcionados con el proceso ... <br />
-												</strong>
+												Liga de mujeres votantes decepcionados con el proceso.
+												<br />
 											</span>
 										</div>
 										{/* <div className="left float-right"> */}
@@ -107,8 +108,10 @@ export const Home = () => (
 										{/* </CardBody> */}
 									</div>
 									<div>
-										<span className="secciones float-left">NOTICIAS</span>
-										<span className="date float-right"> Nov. 13, 2019</span>
+										<strong>
+											<span className="secciones float-left">NOTICIAS</span>
+											<span className="date float-right"> Nov. 13, 2019</span>
+										</strong>
 									</div>
 								</Card>
 							</div>
@@ -120,10 +123,9 @@ export const Home = () => (
 										{/* <CardBody> */}
 										<div className="">
 											<span className="">
-												<strong>
-													la ciudad de durham responde al derrame de alcantarillado en 33
-													janee lane ... <br />
-												</strong>
+												la ciudad de durham responde al derrame de alcantarillado en 33 janee
+												lane.
+												<br />
 											</span>
 										</div>
 										{/* <div className="left float-right"> */}
@@ -138,8 +140,11 @@ export const Home = () => (
 										{/* </CardBody> */}
 									</div>
 									<div>
-										<span className="secciones float-left">COMUNIDAD</span>
-										<span className="date float-right"> Nov. 13, 2019</span>
+										<strong>
+											{" "}
+											<span className="secciones float-left">COMUNIDAD</span>
+											<span className="date float-right"> Nov. 13, 2019</span>
+										</strong>
 									</div>
 								</Card>
 							</div>
@@ -151,10 +156,9 @@ export const Home = () => (
 										{/* <CardBody> */}
 										<div className="">
 											<span className="">
-												<strong>
-													miembros de liga de mujeres votantes de wake serán enviadas a las
-													naciones unidas... <br />
-												</strong>
+												miembros de liga de mujeres votantes de wake serán enviadas a las
+												naciones unidas.
+												<br />
 											</span>
 										</div>
 										{/* <div className="left float-right"> */}
@@ -169,8 +173,44 @@ export const Home = () => (
 										{/* </CardBody> */}
 									</div>
 									<div>
-										<span className="secciones float-left">COMUNIDAD</span>
-										<span className="date float-right"> Nov. 13, 2019</span>
+										<strong>
+											{" "}
+											<span className="secciones float-left">COMUNIDAD</span>
+											<span className="date float-right"> Nov. 13, 2019</span>
+										</strong>
+									</div>
+								</Card>
+							</div>
+						</li>
+						<li>
+							<div className="box">
+								<Card>
+									<div className="textandphoto">
+										{/* <CardBody> */}
+										<div className="">
+											<span className="">
+												miembros de liga de mujeres votantes de wake serán enviadas a las
+												naciones unidas.
+												<br />
+											</span>
+										</div>
+										{/* <div className="left float-right"> */}
+										{/* <CardImg
+											top
+											src="http://www.laconexionusa.com/fotosnoticias/p/voto.jpg"
+											width="50"
+											height="75"
+											alt="Card image cap"
+										/>*/}
+										{/* </div> */}
+										{/* </CardBody> */}
+									</div>
+									<div>
+										<strong>
+											{" "}
+											<span className="secciones float-left">COMUNIDAD</span>
+											<span className="date float-right"> Nov. 13, 2019</span>
+										</strong>
 									</div>
 								</Card>
 							</div>
