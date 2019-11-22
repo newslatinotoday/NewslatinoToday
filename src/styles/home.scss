@@ -33,6 +33,9 @@ background-size: cover;
 }
 .textandphoto{
     margin-bottom: 20px;
+      font-weight: bold;
+      font-family: nyt-cheltenham;
+          font-size: 20px;
 }
 .lefttextspam{
      font-size: 16px;
@@ -40,14 +43,15 @@ background-size: cover;
     //  font-family: 'Lato', sans-serif;
     font-family: nyt-cheltenham;
 }
-.derechaRow{
-    border-left:3px double #aaa;
-    // font-family: nyt-cheltenham;
-}
+// .derechaRow{
+//     // border-left:3px double #aaa;
+//     // // font-family: nyt-cheltenham;
+// }
 .box{
-    
-     border-bottom: 1px solid #aaa;
+     
+    //  border-bottom: 1px solid #aaa;
      margin-bottom: 50px;
+   
 }
 .ul{
 border-left: 1px solid #aaa;
