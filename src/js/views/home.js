@@ -1,6 +1,7 @@
 import React from "react";
 import rigoImage from "../../img/rigo-baby.jpg";
 import "../../styles/home.scss";
+
 import { Card, Button, CardImg, CardTitle, CardText, CardGroup, CardSubtitle, CardBody, CardDeck } from "reactstrap";
 
 export const Home = () => (
@@ -9,13 +10,15 @@ export const Home = () => (
 			<div className="row row1">
 				<div className="col-sm-3 leftside">
 					<Card>
-						<CardImg
-							top
-							width="150"
-							height="150"
-							src="https://media.tycsports.com/files/2019/08/28/67449/zlatan_416x234.jpg?v=2"
-							alt="Card image cap"
-						/>
+						{/* <CardImg
+							// top
+							// width="150"
+							// height="150"
+							// src="https://media.tycsports.com/files/2019/08/28/67449/zlatan_416x234.jpg?v=2"
+                            // alt="Card image cap"
+                             
+						/> */}
+						<div className="bg" />
 						<CardBody>
 							<span className="lefttextspam">
 								<strong>
@@ -32,13 +35,15 @@ export const Home = () => (
 						</CardBody>
 					</Card>
 					<Card>
-						<CardImg
+						<div className="bx" />
+						{/* <CardImg
 							top
-							width="200"
-							height="150"
+							// width="200"
+							height="212"
 							src="https://media.tycsports.com/files/2019/11/13/77306/daniel-angelici_862x485.jpeg"
 							alt="Card image cap"
-						/>
+                        /> */}
+
 						<CardBody>
 							<span className="lefttextspam">
 								<strong>
@@ -54,13 +59,14 @@ export const Home = () => (
 				<div className="col-sm-6">
 					{/* <span className="homespam">Comunidad</span> */}
 					<Card>
-						<CardImg
+						<div className="bl" />
+						{/* <CardImg
 							top
 							src="https://static01.nyt.com/images/2019/11/13/us/politics/13dc-impeach2/merlin_164329095_76d97a02-7ebf-4c45-a067-65bc1a1787a8-superJumbo.jpg?quality=90&auto=webp"
 							width="250"
 							height="400"
 							alt="Card image cap"
-						/>
+						/> */}
 						<CardBody>
 							<span className="textspam">
 								<strong>

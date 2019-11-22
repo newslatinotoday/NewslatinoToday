@@ -1,3 +1,36 @@
+body, html {
+height: 100%;
+
+}
+.bg {
+background-image: url("https://media.tycsports.com/files/2019/08/28/67449/zlatan_416x234.jpg?v=2");
+// height: 100vh;
+// width:150px;
+height:212px;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.bx {
+background-image: url("https://media.tycsports.com/files/2019/11/13/77306/daniel-angelici_862x485.jpeg");
+// height: 100vh;
+// width:150px;
+height:212px;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.bl {
+background-image: url("https://static01.nyt.com/images/2019/11/13/us/politics/13dc-impeach2/merlin_164329095_76d97a02-7ebf-4c45-a067-65bc1a1787a8-superJumbo.jpg?quality=90&auto=webp");
+// height: 100vh;
+// width:150px;
+
+
+height:400px;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
 .textandphoto{
     margin-bottom: 20px;
 }
