@@ -6,7 +6,7 @@ height: 100%;
 background-image: url("https://media.tycsports.com/files/2019/08/28/67449/zlatan_416x234.jpg?v=2");
 // height: 100vh;
 // width:150px;
-height:212px;
+// height:212px;
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
@@ -15,7 +15,7 @@ background-size: cover;
 background-image: url("https://media.tycsports.com/files/2019/11/13/77306/daniel-angelici_862x485.jpeg");
 // height: 100vh;
 // width:150px;
-height:212px;
+// height:212px;
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
@@ -26,8 +26,13 @@ background-image: url("https://static01.nyt.com/images/2019/11/13/us/politics/13
 // width:150px;
 
 
-height:400px;
+// height:400px;
 background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.image{
+    background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
 }
@@ -173,7 +178,7 @@ font-family: suecaslabmedium,Georgia,"serif";
     line-height: 4.313rem;;
     font-weight: 400;
    
-    
+    padding-right: 1095px;
     border-bottom:2px solid black;
     // padding-bottom:2px;
 }

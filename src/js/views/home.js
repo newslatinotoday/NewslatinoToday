@@ -1,7 +1,6 @@
 import React from "react";
 import rigoImage from "../../img/rigo-baby.jpg";
 import "../../styles/home.scss";
-
 import { Card, Button, CardImg, CardTitle, CardText, CardGroup, CardSubtitle, CardBody, CardDeck } from "reactstrap";
 
 export const Home = () => (
@@ -10,15 +9,18 @@ export const Home = () => (
 			<div className="row row1">
 				<div className="col-sm-3 leftside">
 					<Card>
-						{/* <CardImg
-							// top
-							// width="150"
-							// height="150"
-							// src="https://media.tycsports.com/files/2019/08/28/67449/zlatan_416x234.jpg?v=2"
-                            // alt="Card image cap"
-                             
+						<div
+							className="bg"
+							style={{
+								height: "212px"
+							}}
+						/>
+						{/* <img
+							src="https://media.tycsports.com/files/2019/08/28/67449/zlatan_416x234.jpg?v=2"
+							className="rounded"
+							alt="Cinque Terre"
+							// height="212px"
 						/> */}
-						<div className="bg" />
 						<CardBody>
 							<span className="lefttextspam">
 								<strong>
@@ -35,7 +37,7 @@ export const Home = () => (
 						</CardBody>
 					</Card>
 					<Card>
-						<div className="bx" />
+						<div className="bx" style={{ height: "212px" }} />
 						{/* <CardImg
 							top
 							// width="200"
@@ -59,7 +61,7 @@ export const Home = () => (
 				<div className="col-sm-6">
 					{/* <span className="homespam">Comunidad</span> */}
 					<Card>
-						<div className="bl" />
+						<div className="bl" style={{ height: "400px" }} />
 						{/* <CardImg
 							top
 							src="https://static01.nyt.com/images/2019/11/13/us/politics/13dc-impeach2/merlin_164329095_76d97a02-7ebf-4c45-a067-65bc1a1787a8-superJumbo.jpg?quality=90&auto=webp"
@@ -226,7 +228,7 @@ export const Home = () => (
 				</div>
 			</div>
 
-			<span className="homespam">Deportes</span>
+			<span className="homespam">DEPORTES</span>
 			<div className="row row1">
 				<div className="col-8">
 					<Card>
@@ -346,6 +348,13 @@ export const Home = () => (
 					</Card>
 				</div>
 				<span className="textspam">Testimonios y consejos que afectan tu diario vivir. Ver mas...</span>
+				<div className="card" style={{ width: "100%", height: "100%" }}>
+					<img
+						src="https://media.tycsports.com/files/2019/10/12/73681/forlan-independiente_416x234.jpg"
+						className="card-img-top"
+						alt="..."
+					/>
+				</div>
 			</div>
 		</div>
 	</React.Fragment>
