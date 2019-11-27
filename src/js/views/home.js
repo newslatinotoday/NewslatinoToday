@@ -274,17 +274,53 @@ export const Home = () => (
 						</CardBody>
 					</Card>
 				</div>
+			</div>
+			<div className="espacio" />
+			<span className="homespam">COMUNIDAD</span>
+			<div className="row row1">
+				<div className="col-4">
+					<Card>
+						<div className="comunidadFotos1" style={{ height: "300px" }} />
+						<CardBody>
+							<span className="secondeparttextspam">
+								<strong>
+									{" "}
+									Candidatos para el superintendente escolar de carolina del norte enfoque en la
+									educación de la primera infancia.
+									<br />
+								</strong>
+							</span>
+						</CardBody>
+					</Card>
+				</div>
+				<div className="col-4">
+					<Card>
+						<div className="comunidadFotos2" style={{ height: "300px" }} />
 
-				{/* <img
-				className=""
-				src="http://newslatinotoday.net/wp-content/uploads/bb-plugin/cache/1140-community-portrait.jpg"
-				alt="1140-community"
-				itemProp="image"
-				height="400"
-				width="300"
-				title="1140-community"
-			/>
-		// </div> */}
+						<CardBody>
+							<span className="secondeparttextspam">
+								<strong>
+									$ 1.3 millones adicionales aprobados para el condado de brunswick.
+									<br />
+								</strong>
+							</span>
+						</CardBody>
+					</Card>
+				</div>
+				<div className="col-4">
+					<Card>
+						<div className="comunidadFotos3" style={{ height: "300px" }} />
+
+						<CardBody>
+							<span className="secondeparttextspam">
+								<strong>
+									Conozca el origen del dia de accion de gracias.
+									<br />
+								</strong>
+							</span>
+						</CardBody>
+					</Card>
+				</div>
 			</div>
 			<span className="homespam">Vida</span>
 			<div className="row">
