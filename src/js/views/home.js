@@ -118,8 +118,8 @@ export const Home = () => (
 									<div>
 										<strong>
 											<span className="secciones float-left">NOTICIAS</span>
-											<span className="date float-right"> Nov. 13, 2019</span>
 										</strong>
+										<span className="date float-right"> Nov. 13, 2019</span>
 									</div>
 								</Card>
 							</div>
@@ -131,8 +131,7 @@ export const Home = () => (
 										{/* <CardBody> */}
 										<div className="">
 											<span className="">
-												la ciudad de durham responde al derrame de alcantarillado en 33 janee
-												lane.
+												$ 1.3 millones adicionales aprobados para el condado de brunswick
 												<br />
 											</span>
 										</div>
@@ -151,8 +150,8 @@ export const Home = () => (
 										<strong>
 											{" "}
 											<span className="secciones float-left">COMUNIDAD</span>
-											<span className="date float-right"> Nov. 13, 2019</span>
 										</strong>
+										<span className="date float-right"> Nov. 13, 2019</span>
 									</div>
 								</Card>
 							</div>
@@ -164,8 +163,8 @@ export const Home = () => (
 										{/* <CardBody> */}
 										<div className="">
 											<span className="">
-												miembros de liga de mujeres votantes de wake serán enviadas a las
-												naciones unidas.
+												Candidatos para el superintendente escolar de carolina del norte enfoque
+												en la educación de la primera infancia.
 												<br />
 											</span>
 										</div>
@@ -184,8 +183,8 @@ export const Home = () => (
 										<strong>
 											{" "}
 											<span className="secciones float-left">COMUNIDAD</span>
-											<span className="date float-right"> Nov. 13, 2019</span>
 										</strong>
+										<span className="date float-right"> Nov. 13, 2019</span>
 									</div>
 								</Card>
 							</div>
@@ -197,8 +196,7 @@ export const Home = () => (
 										{/* <CardBody> */}
 										<div className="">
 											<span className="">
-												miembros de liga de mujeres votantes de wake serán enviadas a las
-												naciones unidas.
+												Conozca el origen del dia de accion de gracias.
 												<br />
 											</span>
 										</div>
@@ -217,8 +215,9 @@ export const Home = () => (
 										<strong>
 											{" "}
 											<span className="secciones float-left">COMUNIDAD</span>
-											<span className="date float-right"> Nov. 13, 2019</span>
 										</strong>
+										<span className="date float-right"> Nov. 13, 2019</span>
+										{/*  */}
 									</div>
 								</Card>
 							</div>
@@ -227,42 +226,52 @@ export const Home = () => (
 					</ul>
 				</div>
 			</div>
+			<div className="espacio" />
+			{/* AQUI EMPIEZA LA SEGUNDA PARTE DEL DIARIO */}
 
-			<span className="homespam">DEPORTES</span>
+			<span className="homespam">COMUNIDAD</span>
 			<div className="row row1">
-				<div className="col-8">
+				<div className="col-4">
 					<Card>
-						<CardImg
-							top
-							width="100%"
-							height="600"
-							src="https://media.tycsports.com/files/2019/10/15/74092/angelici_1440x810.jpg?v=1"
-							alt="Card image cap"
-							className=""
-						/>
+						<div className="comunidadFotos1" style={{ height: "300px" }} />
 						<CardBody>
-							<span className="textspam">Cada semana una pasión. Ver mas...</span>
+							<span className="secondeparttextspam">
+								<strong>
+									{" "}
+									Candidatos para el superintendente escolar de carolina del norte enfoque en la
+									educación de la primera infancia.
+									<br />
+								</strong>
+							</span>
 						</CardBody>
 					</Card>
 				</div>
 				<div className="col-4">
 					<Card>
-						<CardImg
-							top
-							width="200"
-							height="300"
-							src="https://media.tycsports.com/files/2019/08/28/67449/zlatan_416x234.jpg?v=2"
-							alt="Card image cap"
-						/>
+						<div className="comunidadFotos2" style={{ height: "300px" }} />
+
+						<CardBody>
+							<span className="secondeparttextspam">
+								<strong>
+									$ 1.3 millones adicionales aprobados para el condado de brunswick.
+									<br />
+								</strong>
+							</span>
+						</CardBody>
 					</Card>
+				</div>
+				<div className="col-4">
 					<Card>
-						<CardImg
-							top
-							width="200"
-							height="300"
-							src="https://media.tycsports.com/files/2019/10/12/73681/forlan-independiente_416x234.jpg"
-							alt="Card image cap"
-						/>
+						<div className="comunidadFotos3" style={{ height: "300px" }} />
+
+						<CardBody>
+							<span className="secondeparttextspam">
+								<strong>
+									Conozca el origen del dia de accion de gracias.
+									<br />
+								</strong>
+							</span>
+						</CardBody>
 					</Card>
 				</div>
 
@@ -278,7 +287,7 @@ export const Home = () => (
 		// </div> */}
 			</div>
 			<span className="homespam">Vida</span>
-			<div className="row row2">
+			<div className="row">
 				<div className="col-4">
 					<Card>
 						<CardImg
