@@ -2,6 +2,15 @@ body, html {
 height: 100%;
 
 }
+.deportes3{
+    background-image: url("https://bolavip.com/__export/1574892162406/sites/bolavip/img/2019/11/27/messi-final_crop1574892161540.jpg_1693159006.jpg");
+
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
+    
+}
 .espacio{
     margin-top: 85px;
 }
@@ -35,9 +44,6 @@ background-size: cover;
 }
 .bg {
 background-image: url("https://media.tycsports.com/files/2019/08/28/67449/zlatan_416x234.jpg?v=2");
-// height: 100vh;
-// width:150px;
-// height:212px;
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
@@ -50,6 +56,20 @@ background-image: url("https://media.tycsports.com/files/2019/11/13/77306/daniel
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
+}
+.noticias2{
+    background-image: url("http://www.laconexionusa.com/fotosnoticias/g/Obamacare11.jpg");
+
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.noticias3{
+    background-image: url("http://www.laconexionusa.com/fotosnoticias/g/16012659w.jpg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+   
 }
 .bl {
 background-image: url("https://static01.nyt.com/images/2019/11/13/us/politics/13dc-impeach2/merlin_164329095_76d97a02-7ebf-4c45-a067-65bc1a1787a8-superJumbo.jpg?quality=90&auto=webp");
@@ -97,9 +117,7 @@ border-left: 1px solid #aaa;
     font-size: 12px;
      
 }
-.colSegundo{
-    // padding: 12px;
-}
+
 .righttextspam{
     // font-family: 'Lato', sans-serif;
     font-size: 14px;

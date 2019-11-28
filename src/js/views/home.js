@@ -231,7 +231,7 @@ export const Home = () => (
 
 			<span className="homespam">COMUNIDAD</span>
 			<div className="row row1">
-				<div className="col-4">
+				<div className="col-sm-4">
 					<Card>
 						<div className="comunidadFotos1" style={{ height: "300px" }} />
 						<CardBody>
@@ -246,7 +246,7 @@ export const Home = () => (
 						</CardBody>
 					</Card>
 				</div>
-				<div className="col-4">
+				<div className="col-sm-4">
 					<Card>
 						<div className="comunidadFotos2" style={{ height: "300px" }} />
 
@@ -260,7 +260,7 @@ export const Home = () => (
 						</CardBody>
 					</Card>
 				</div>
-				<div className="col-4">
+				<div className="col-sm-4">
 					<Card>
 						<div className="comunidadFotos3" style={{ height: "300px" }} />
 
@@ -276,45 +276,46 @@ export const Home = () => (
 				</div>
 			</div>
 			<div className="espacio" />
-			<span className="homespam">COMUNIDAD</span>
+			<span className="homespam">DEPORTES</span>
 			<div className="row row1">
-				<div className="col-4">
+				<div className="col-sm-4">
 					<Card>
-						<div className="comunidadFotos1" style={{ height: "300px" }} />
+						<div className="bg" style={{ height: "300px" }} />
 						<CardBody>
 							<span className="secondeparttextspam">
 								<strong>
 									{" "}
-									Candidatos para el superintendente escolar de carolina del norte enfoque en la
-									educación de la primera infancia.
+									Ibrahimovic se despidió de Los Ángeles Galaxy y los mandó {"a ver béisbol"}
 									<br />
 								</strong>
 							</span>
 						</CardBody>
 					</Card>
 				</div>
-				<div className="col-4">
+				<div className="col-sm-4">
 					<Card>
-						<div className="comunidadFotos2" style={{ height: "300px" }} />
+						<div className="bx" style={{ height: "300px" }} />
 
 						<CardBody>
 							<span className="secondeparttextspam">
 								<strong>
-									$ 1.3 millones adicionales aprobados para el condado de brunswick.
+									Angelici, el Mundial de Clubes, el palito a la oposición y las declaraciones de
+									Alfaro
 									<br />
 								</strong>
 							</span>
 						</CardBody>
 					</Card>
 				</div>
-				<div className="col-4">
+				<div className="col-sm-4">
 					<Card>
-						<div className="comunidadFotos3" style={{ height: "300px" }} />
+						<div className="deportes3" style={{ height: "300px" }} />
 
 						<CardBody>
 							<span className="secondeparttextspam">
 								<strong>
-									Conozca el origen del dia de accion de gracias.
+									Show de 700: un gol y dos asistencias de Messi para que Barcelona clasifique a
+									octavos
 									<br />
 								</strong>
 							</span>
@@ -322,85 +323,56 @@ export const Home = () => (
 					</Card>
 				</div>
 			</div>
-			<span className="homespam">Vida</span>
-			<div className="row">
-				<div className="col-4">
+			<div className="espacio" />
+			<span className="homespam">NOTICIAS</span>
+			<div className="row row1">
+				<div className="col-sm-4">
 					<Card>
-						<CardImg
-							top
-							height="200"
-							width="100%"
-							src="http://newslatinotoday.net/wp-content/uploads/2018/08/Salud.jpg"
-							alt="Card image cap"
-						/>
+						<div className="bl" style={{ height: "300px" }} />
+						<CardBody>
+							<span className="secondeparttextspam">
+								<strong>
+									{" "}
+									La primera audiencia pública del {"impeachment"} refuerza la idea de que Trump
+									presionó a Ucrania para que investigara a Biden
+									<br />
+								</strong>
+							</span>
+						</CardBody>
 					</Card>
 				</div>
-				<div className="col-4">
+				<div className="col-sm-4">
 					<Card>
-						<CardImg
-							top
-							height="200"
-							width="100%"
-							src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBosxbbncG0zjejxhuBh-9yXFfNri0o3SraOYcy5TnmhZvfKMZ&s "
-							alt="Card image cap"
-						/>
+						<div className="noticias2" style={{ height: "300px" }} />
+
+						<CardBody>
+							<span className="secondeparttextspam">
+								<strong>
+									Inmigrantes, con o sin documentos, pueden adquirir cobertura médica.
+									<br />
+								</strong>
+							</span>
+						</CardBody>
 					</Card>
 				</div>
-				<div className="col-4">
+				<div className="col-sm-4">
 					<Card>
-						<CardImg
-							top
-							height="200"
-							width="100%"
-							src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4G0N1fRYBKbHe1xWv5Vj3QB44iqhB79dcb8RFhblJt9bFolOuug&s"
-							alt="Card image cap"
-						/>
+						<div className="noticias3" style={{ height: "300px" }} />
+
+						<CardBody>
+							<span className="secondeparttextspam">
+								<strong>
+									Corte cree que el recuento de las presidenciales en uruguay irá hasta el fin de
+									semana.
+									<br />
+								</strong>
+							</span>
+						</CardBody>
 					</Card>
 				</div>
 			</div>
-			<div className="row row3">
-				<div className="col-4">
-					<Card>
-						<CardImg
-							top
-							height="200"
-							width="100%"
-							src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-YmTeuGfRPyaAworY2zLdy2cv28H9T_bEakH-7QXo0JrA9a4u&s"
-							alt="Card image cap"
-						/>
-					</Card>
-				</div>
-				<div className="col-4">
-					<Card>
-						<CardImg
-							top
-							height="200"
-							width="100%"
-							src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxwIYK_W_QbykTCyM4rbuV6T2tDxosD6sckfsJrUQpVdyUgGzJ&s"
-							alt="Card image cap"
-						/>
-					</Card>
-				</div>
-				<div className="col-4">
-					<Card>
-						<CardImg
-							top
-							height="200"
-							width="100%"
-							src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5ycqbjBuv_051eBU-Voap2Wb9ZJTVrD52IaqjHy0Mzl9RAtsl1w&s"
-							alt="Card image cap"
-						/>
-					</Card>
-				</div>
-				<span className="textspam">Testimonios y consejos que afectan tu diario vivir. Ver mas...</span>
-				<div className="card" style={{ width: "100%", height: "100%" }}>
-					<img
-						src="https://media.tycsports.com/files/2019/10/12/73681/forlan-independiente_416x234.jpg"
-						className="card-img-top"
-						alt="..."
-					/>
-				</div>
-			</div>
+			<div className="espacio" />
+			<span className="homespam">SPONSORS</span>
 		</div>
 	</React.Fragment>
 );
