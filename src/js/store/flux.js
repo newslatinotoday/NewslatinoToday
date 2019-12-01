@@ -1,11 +1,10 @@
 const getState = ({ getStore, getActions, setStore }) => {
 	return {
 		store: {
-			demo: [
+			deportes: [
 				{
-					title: "FIRST",
-					background: "white",
-					initial: "white"
+					type: "DEPORTES",
+					title: "Ibrahimovic se despidió de Los Ángeles Galaxy y los mandó a ver béisbol"
 				},
 				{
 					title: "SECOND",
