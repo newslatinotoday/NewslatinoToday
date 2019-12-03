@@ -10,7 +10,7 @@ import injectContext from "./store/appContext";
 // import Navbar from "react-bootstrap/Navbar";
 import { NavbarHome } from "./component/navbar";
 import { Footer } from "./component/footer";
-
+import { DeportesOne } from "./component/deportesOne";
 //create your first component
 export const Layout = () => {
 	//the basename is used when your project is published in a subdirectory and not in the root of the domain
@@ -24,7 +24,7 @@ export const Layout = () => {
 					<NavbarHome />
 					<Switch>
 						<Route exact path="/" component={Home} />
-						{/* <Route exact path="/" component={Casa} /> */}
+						<Route exact path="/deportes-noticia-uno" component={DeportesOne} />
 						<Route path="/demo" component={Demo} />
 						{/* <Route exact path="/" component={HomePage} /> */}
 						<Route render={() => <h1>Not found!</h1>} />

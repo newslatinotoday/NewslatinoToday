@@ -2,7 +2,7 @@ import React from "react";
 import rigoImage from "../../img/rigo-baby.jpg";
 import "../../styles/home.scss";
 import { Card, Button, CardImg, CardTitle, CardText, CardGroup, CardSubtitle, CardBody, CardDeck } from "reactstrap";
-
+import { Link } from "react-router-dom";
 export const Home = () => (
 	<React.Fragment>
 		<div className="container">
@@ -23,11 +23,13 @@ export const Home = () => (
 						/> */}
 						<CardBody>
 							<span className="lefttextspam">
-								<strong>
-									Ibrahimovic se despidió de Los Ángeles Galaxy y los mandó {"a ver béisbol"}
-									<br />
-									<span className="secciones">DEPORTES</span>
-								</strong>
+								<Link to="/deportes-noticia-uno">
+									<strong>
+										Ibrahimovic se despidió de Los Ángeles Galaxy y los mandó {"a ver béisbol"}
+										<br />
+										<span className="secciones">DEPORTES</span>
+									</strong>
+								</Link>
 							</span>
 							<br />
 							{/* <span className="littetextspam">
