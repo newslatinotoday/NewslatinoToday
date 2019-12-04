@@ -1,6 +1,7 @@
 import React from "react";
 import "../../styles/home.scss";
 import { Card, Button, CardImg, CardTitle, CardText, CardGroup, CardSubtitle, CardBody, CardDeck } from "reactstrap";
+import { Link } from "react-router-dom";
 
 export class DeportesOne extends React.Component {
 	render() {
@@ -17,7 +18,7 @@ export class DeportesOne extends React.Component {
 				</div>
 				<div className="espacio3" />
 				<div
-					className="bg"
+					className="deportes1"
 					style={{
 						height: "613px"
 						// width: "813px"
@@ -40,6 +41,10 @@ export class DeportesOne extends React.Component {
 					les di Zlatan. Son bienvenidos, la historia continúa. Ahora vuelvan a ver béisbol, escribió el
 					sueco, fiel a su estilo, en su cuenta de Twitter.
 				</p>
+				<div className="espacio2" />
+				<Link to="/">
+					<span className="volver">Volver A La Pagina Principal</span>
+				</Link>
 			</div>
 		);
 	}

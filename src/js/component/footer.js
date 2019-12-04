@@ -2,9 +2,10 @@ import React, { Component } from "react";
 
 export const Footer = () => (
 	<footer className="footer mt-auto py-3 text-center">
+		<div className="espacio3" />
 		<p>
-			Volver a la pagina principal © 2019 NewsLatinoToday - correo electronico: jkadsfljk@gmail.com - telefono:
-			(919)444-0000 - Locacion de oficina: Raleigh, NC
+			© 2019 NewsLatinoToday - Correo Electronico: jkadsfljk@gmail.com - Telefono: (919)444-0000 - Locacion De
+			Oficina: Raleigh, NC
 		</p>
 	</footer>
 );
