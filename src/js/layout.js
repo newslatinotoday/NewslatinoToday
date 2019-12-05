@@ -11,6 +11,14 @@ import injectContext from "./store/appContext";
 import { NavbarHome } from "./component/navbar";
 import { Footer } from "./component/footer";
 import { DeportesOne } from "./component/deportesOne";
+import { DeportesTwo } from "./component/deportes2";
+import { DeportesThree } from "./component/deportes3";
+import { ComunidadOne } from "./component/comunidad1";
+import { ComunidadTwo } from "./component/comunidad2";
+import { ComunidadThree } from "./component/comunidad3";
+import { NoticiasOne } from "./component/noticias1";
+import { Noticiastwo } from "./component/noticias2";
+import { NoticiasThree } from "./component/noticias3";
 import { SeccionDeportes } from "./component/seccionDeportes";
 //create your first component
 export const Layout = () => {
@@ -26,6 +34,14 @@ export const Layout = () => {
 					<Switch>
 						<Route exact path="/" component={Home} />
 						<Route exact path="/deportes-noticia-uno" component={DeportesOne} />
+						<Route exact path="/deportes-noticia-dos" component={DeportesTwo} />
+						<Route exact path="/deportes-noticia-tres" component={DeportesThree} />
+						<Route exact path="/noticias-uno" component={NoticiasOne} />
+						<Route exact path="/noticias-dos" component={NoticiasTwo} />
+						<Route exact path="/noticias-tres" component={NoticiasThree} />
+						<Route exact path="/comunidad-uno" component={ComunidadOne} />
+						<Route exact path="/comunidad-dos" component={ComunidadTwo} />
+						<Route exact path="/comunidad-tres" component={ComunidadThree} />
 						<Route exact path="/seccion-deportes" component={SeccionDeportes} />
 						<Route path="/demo" component={Demo} />
 						{/* <Route exact path="/" component={HomePage} /> */}
