@@ -92,7 +92,7 @@ export const Home = () => {
 										</span>
 										<br />
 										<span className="littetextspam">
-											{item.description}
+											{item.halfdescription}
 											<br />
 										</span>
 										<strong>
@@ -110,90 +110,105 @@ export const Home = () => {
 						<ul>
 							<li>
 								<div className="box">
-									<Card>
-										<div className="textandphoto">
-											<div className="">
-												<span className="">
-													Liga de mujeres votantes decepcionados con el proceso.
-													<br />
-												</span>
-											</div>
-										</div>
-										<div>
-											<strong>
-												<span className="secciones float-left">NOTICIAS</span>
-											</strong>
-											<span className="date float-right"> Nov. 13, 2019</span>
-										</div>
-									</Card>
+									{store.noticias2.map((item, index) => {
+										return (
+											<Card key={index}>
+												<div className="textandphoto">
+													<div className="">
+														<span className="">
+															{item.title}
+															<br />
+														</span>
+													</div>
+												</div>
+												<div>
+													<strong>
+														<span className="secciones float-left">{item.type}</span>
+													</strong>
+													<span className="date float-right"> {item.date}</span>
+												</div>
+											</Card>
+										);
+									})}
 								</div>
 							</li>
 							<li>
 								<div className="box">
-									<Card>
-										<div className="textandphoto">
-											{/* <CardBody> */}
-											<div className="">
-												<span className="">
-													$ 1.3 millones adicionales aprobados para el condado de brunswick
-													<br />
-												</span>
-											</div>
-										</div>
-										<div>
-											<strong>
-												{" "}
-												<span className="secciones float-left">COMUNIDAD</span>
-											</strong>
-											<span className="date float-right"> Nov. 13, 2019</span>
-										</div>
-									</Card>
+									{store.comunidad1.map((item, index) => {
+										return (
+											<Card key={index}>
+												<div className="textandphoto">
+													{/* <CardBody> */}
+													<div className="">
+														<span className="">
+															{item.title}
+															<br />
+														</span>
+													</div>
+												</div>
+												<div>
+													<strong>
+														{" "}
+														<span className="secciones float-left">{item.type}</span>
+													</strong>
+													<span className="date float-right"> {item.date}</span>
+												</div>
+											</Card>
+										);
+									})}
 								</div>
 							</li>
 							<li>
 								<div className="box">
-									<Card>
-										<div className="textandphoto">
-											{/* <CardBody> */}
-											<div className="">
-												<span className="">
-													Candidatos para el superintendente escolar de carolina del norte
-													enfoque en la educación de la primera infancia.
-													<br />
-												</span>
-											</div>
-										</div>
-										<div>
-											<strong>
-												{" "}
-												<span className="secciones float-left">COMUNIDAD</span>
-											</strong>
-											<span className="date float-right"> Nov. 13, 2019</span>
-										</div>
-									</Card>
+									{store.comunidad2.map((item, index) => {
+										return (
+											<Card key={index}>
+												<div className="textandphoto">
+													{/* <CardBody> */}
+													<div className="">
+														<span className="">
+															{item.title}
+															<br />
+														</span>
+													</div>
+												</div>
+												<div>
+													<strong>
+														{" "}
+														<span className="secciones float-left">{item.type}</span>
+													</strong>
+													<span className="date float-right"> {item.date}</span>
+												</div>
+											</Card>
+										);
+									})}
 								</div>
 							</li>
 							<li>
 								<div className="box">
-									<Card>
-										<div className="textandphoto">
-											{/* <CardBody> */}
-											<div className="">
-												<span className="">
-													Conozca el origen del dia de accion de gracias.
-													<br />
-												</span>
-											</div>
-										</div>
-										<div>
-											<strong>
-												{" "}
-												<span className="secciones float-left">COMUNIDAD</span>
-											</strong>
-											<span className="date float-right"> Nov. 13, 2019</span>
-											{/*  */}
-										</div>
-									</Card>
+									{store.comunidad3.map((item, index) => {
+										return (
+											<Card key={index}>
+												<div className="textandphoto">
+													{/* <CardBody> */}
+													<div className="">
+														<span className="">
+															{item.title}
+															<br />
+														</span>
+													</div>
+												</div>
+												<div>
+													<strong>
+														{" "}
+														<span className="secciones float-left">{item.type}</span>
+													</strong>
+													<span className="date float-right">{item.date}</span>
+													{/*  */}
+												</div>
+											</Card>
+										);
+									})}
 								</div>
 							</li>
 							{/* </div> */}
@@ -207,47 +222,76 @@ export const Home = () => {
 				<span className="homespam">COMUNIDAD</span>
 				<div className="row row1">
 					<div className="col-sm-4">
-						<Card>
-							<div className="comunidadFotos1" style={{ height: "300px" }} />
-							<CardBody>
-								<span className="secondeparttextspam">
-									<strong>
-										{" "}
-										Candidatos para el superintendente escolar de carolina del norte enfoque en la
-										educación de la primera infancia.
-										<br />
-									</strong>
-								</span>
-							</CardBody>
-						</Card>
+						{store.comunidad1.map((item, index) => {
+							return (
+								<Card key={index}>
+									{/* <div className="comunidadFotos1" style={{ height: "300px" }} /> */}
+									<img
+										src={item.image}
+										height="300"
+										className="img-fluid height-auto max-width-100%"
+										alt="..."
+									/>
+									<CardBody>
+										<span className="secondeparttextspam">
+											<strong>
+												{" "}
+												{item.title}
+												<br />
+											</strong>
+										</span>
+									</CardBody>
+								</Card>
+							);
+						})}
 					</div>
 					<div className="col-sm-4">
-						<Card>
-							<div className="comunidadFotos2" style={{ height: "300px" }} />
-
-							<CardBody>
-								<span className="secondeparttextspam">
-									<strong>
-										$ 1.3 millones adicionales aprobados para el condado de brunswick.
-										<br />
-									</strong>
-								</span>
-							</CardBody>
-						</Card>
+						{store.comunidad2.map((item, index) => {
+							return (
+								<Card key={index}>
+									{/* <div className="comunidadFotos1" style={{ height: "300px" }} /> */}
+									<img
+										src={item.image}
+										height="300"
+										className="img-fluid height-auto max-width-100%"
+										alt="..."
+									/>
+									<CardBody>
+										<span className="secondeparttextspam">
+											<strong>
+												{" "}
+												{item.title}
+												<br />
+											</strong>
+										</span>
+									</CardBody>
+								</Card>
+							);
+						})}
 					</div>
 					<div className="col-sm-4">
-						<Card>
-							<div className="comunidadFotos3" style={{ height: "300px" }} />
-
-							<CardBody>
-								<span className="secondeparttextspam">
-									<strong>
-										Conozca el origen del dia de accion de gracias.
-										<br />
-									</strong>
-								</span>
-							</CardBody>
-						</Card>
+						{store.comunidad3.map((item, index) => {
+							return (
+								<Card key={index}>
+									{/* <div className="comunidadFotos1" style={{ height: "300px" }} /> */}
+									<img
+										src={item.image}
+										height="300"
+										className="img-fluid height-auto max-width-100%"
+										alt="..."
+									/>
+									<CardBody>
+										<span className="secondeparttextspam">
+											<strong>
+												{" "}
+												{item.title}
+												<br />
+											</strong>
+										</span>
+									</CardBody>
+								</Card>
+							);
+						})}
 					</div>
 				</div>
 				{/* DEPORTES!!!!!!!!!*/}
@@ -255,48 +299,76 @@ export const Home = () => {
 				<span className="homespam">DEPORTES</span>
 				<div className="row row1">
 					<div className="col-sm-4">
-						<Card>
-							<div className="deportes1" style={{ height: "300px" }} />
-							<CardBody>
-								<span className="secondeparttextspam">
-									<strong>
-										{" "}
-										Ibrahimovic se despidió de Los Ángeles Galaxy y los mandó {"a ver béisbol"}
-										<br />
-									</strong>
-								</span>
-							</CardBody>
-						</Card>
+						{store.deportes1.map((item, index) => {
+							return (
+								<Card key={index}>
+									{/* <div className="comunidadFotos1" style={{ height: "300px" }} /> */}
+									<img
+										src={item.image}
+										height="300"
+										className="img-fluid height-auto max-width-100%"
+										alt="..."
+									/>
+									<CardBody>
+										<span className="secondeparttextspam">
+											<strong>
+												{" "}
+												{item.title}
+												<br />
+											</strong>
+										</span>
+									</CardBody>
+								</Card>
+							);
+						})}
 					</div>
 					<div className="col-sm-4">
-						<Card>
-							<div className="deportes2" style={{ height: "300px" }} />
-
-							<CardBody>
-								<span className="secondeparttextspam">
-									<strong>
-										Angelici, el Mundial de Clubes, el palito a la oposición y las declaraciones de
-										Alfaro
-										<br />
-									</strong>
-								</span>
-							</CardBody>
-						</Card>
+						{store.deportes2.map((item, index) => {
+							return (
+								<Card key={index}>
+									{/* <div className="comunidadFotos1" style={{ height: "300px" }} /> */}
+									<img
+										src={item.image}
+										height="300"
+										className="img-fluid height-auto max-width-100%"
+										alt="..."
+									/>
+									<CardBody>
+										<span className="secondeparttextspam">
+											<strong>
+												{" "}
+												{item.title}
+												<br />
+											</strong>
+										</span>
+									</CardBody>
+								</Card>
+							);
+						})}
 					</div>
 					<div className="col-sm-4">
-						<Card>
-							<div className="deportes3" style={{ height: "300px" }} />
-
-							<CardBody>
-								<span className="secondeparttextspam">
-									<strong>
-										Show de 700: un gol y dos asistencias de Messi para que Barcelona clasifique a
-										octavos
-										<br />
-									</strong>
-								</span>
-							</CardBody>
-						</Card>
+						{store.deportes3.map((item, index) => {
+							return (
+								<Card key={index}>
+									{/* <div className="comunidadFotos1" style={{ height: "300px" }} /> */}
+									<img
+										src={item.image}
+										height="300"
+										className="img-fluid height-auto max-width-100%"
+										alt="..."
+									/>
+									<CardBody>
+										<span className="secondeparttextspam">
+											<strong>
+												{" "}
+												{item.title}
+												<br />
+											</strong>
+										</span>
+									</CardBody>
+								</Card>
+							);
+						})}
 					</div>
 				</div>
 				{/* NOTICIAS!!!!!!!!!*/}
@@ -305,48 +377,76 @@ export const Home = () => {
 				<span className="homespam">NOTICIAS</span>
 				<div className="row row1">
 					<div className="col-sm-4">
-						<Card>
-							<div className="noticias1" style={{ height: "300px" }} />
-							<CardBody>
-								<span className="secondeparttextspam">
-									<strong>
-										{" "}
-										La primera audiencia pública del {"impeachment"} refuerza la idea de que Trump
-										presionó a Ucrania para que investigara a Biden
-										<br />
-									</strong>
-								</span>
-							</CardBody>
-						</Card>
+						{store.noticias1.map((item, index) => {
+							return (
+								<Card key={index}>
+									{/* <div className="comunidadFotos1" style={{ height: "300px" }} /> */}
+									<img
+										src={item.image}
+										height="300"
+										className="img-fluid height-auto max-width-100%"
+										alt="..."
+									/>
+									<CardBody>
+										<span className="secondeparttextspam">
+											<strong>
+												{" "}
+												{item.title}
+												<br />
+											</strong>
+										</span>
+									</CardBody>
+								</Card>
+							);
+						})}
 					</div>
 					<div className="col-sm-4">
-						<Card>
-							<div className="noticias2" style={{ height: "300px" }} />
-
-							<CardBody>
-								<span className="secondeparttextspam">
-									<strong>
-										Inmigrantes, con o sin documentos, pueden adquirir cobertura médica.
-										<br />
-									</strong>
-								</span>
-							</CardBody>
-						</Card>
+						{store.noticias2.map((item, index) => {
+							return (
+								<Card key={index}>
+									{/* <div className="comunidadFotos1" style={{ height: "300px" }} /> */}
+									<img
+										src={item.image}
+										height="300"
+										className="img-fluid height-auto max-width-100%"
+										alt="..."
+									/>
+									<CardBody>
+										<span className="secondeparttextspam">
+											<strong>
+												{" "}
+												{item.title}
+												<br />
+											</strong>
+										</span>
+									</CardBody>
+								</Card>
+							);
+						})}
 					</div>
 					<div className="col-sm-4">
-						<Card>
-							<div className="noticias3" style={{ height: "300px" }} />
-
-							<CardBody>
-								<span className="secondeparttextspam">
-									<strong>
-										Corte cree que el recuento de las presidenciales en uruguay irá hasta el fin de
-										semana.
-										<br />
-									</strong>
-								</span>
-							</CardBody>
-						</Card>
+						{store.noticias3.map((item, index) => {
+							return (
+								<Card key={index}>
+									{/* <div className="comunidadFotos1" style={{ height: "300px" }} /> */}
+									<img
+										src={item.image}
+										height="300"
+										className="img-fluid height-auto max-width-100%"
+										alt="..."
+									/>
+									<CardBody>
+										<span className="secondeparttextspam">
+											<strong>
+												{" "}
+												{item.title}
+												<br />
+											</strong>
+										</span>
+									</CardBody>
+								</Card>
+							);
+						})}
 					</div>
 				</div>
 				<div className="espacio" />
