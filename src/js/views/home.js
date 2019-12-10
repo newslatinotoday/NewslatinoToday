@@ -57,11 +57,11 @@ export const Home = () => {
 									/>
 									<CardBody>
 										<span className="lefttextspam">
-											<strong>
-												{item.title}
-												<br />
-												<span className="secciones">{item.type}</span>
-											</strong>
+											<Link to="/deportes-noticia-dos">
+												<strong>{item.title}</strong>
+											</Link>
+											<br />
+											<span className="secciones">{item.type}</span>
 										</span>
 									</CardBody>
 								</Card>
@@ -87,9 +87,11 @@ export const Home = () => {
 										alt="..."
 									/>
 									<CardBody>
-										<span className="textspam">
-											<strong>{item.title}</strong>
-										</span>
+										<Link to="/noticias-uno">
+											<span className="textspam">
+												<strong>{item.title}</strong>
+											</span>
+										</Link>
 										<br />
 										<span className="littetextspam">
 											{item.halfdescription}
@@ -115,10 +117,12 @@ export const Home = () => {
 											<Card key={index}>
 												<div className="textandphoto">
 													<div className="">
-														<span className="">
-															{item.title}
-															<br />
-														</span>
+														<Link to="/noticias-dos">
+															<span className="">
+																{item.title}
+																<br />
+															</span>
+														</Link>
 													</div>
 												</div>
 												<div>
@@ -140,10 +144,12 @@ export const Home = () => {
 												<div className="textandphoto">
 													{/* <CardBody> */}
 													<div className="">
-														<span className="">
-															{item.title}
-															<br />
-														</span>
+														<Link to="/comunidad-uno">
+															<span className="">
+																{item.title}
+																<br />
+															</span>
+														</Link>
 													</div>
 												</div>
 												<div>
@@ -166,10 +172,12 @@ export const Home = () => {
 												<div className="textandphoto">
 													{/* <CardBody> */}
 													<div className="">
-														<span className="">
-															{item.title}
-															<br />
-														</span>
+														<Link to="/comunidad-dos">
+															<span className="">
+																{item.title}
+																<br />
+															</span>
+														</Link>
 													</div>
 												</div>
 												<div>
@@ -192,10 +200,12 @@ export const Home = () => {
 												<div className="textandphoto">
 													{/* <CardBody> */}
 													<div className="">
-														<span className="">
-															{item.title}
-															<br />
-														</span>
+														<Link to="/comunidad-tres">
+															<span className="">
+																{item.title}
+																<br />
+															</span>
+														</Link>
 													</div>
 												</div>
 												<div>
@@ -233,13 +243,15 @@ export const Home = () => {
 										alt="..."
 									/>
 									<CardBody>
-										<span className="secondeparttextspam">
-											<strong>
-												{" "}
-												{item.title}
-												<br />
-											</strong>
-										</span>
+										<Link to="/comunidad-uno">
+											<span className="secondeparttextspam">
+												<strong>
+													{" "}
+													{item.title}
+													<br />
+												</strong>
+											</span>
+										</Link>
 									</CardBody>
 								</Card>
 							);
@@ -257,13 +269,15 @@ export const Home = () => {
 										alt="..."
 									/>
 									<CardBody>
-										<span className="secondeparttextspam">
-											<strong>
-												{" "}
-												{item.title}
-												<br />
-											</strong>
-										</span>
+										<Link to="/comunidad-dos">
+											<span className="secondeparttextspam">
+												<strong>
+													{" "}
+													{item.title}
+													<br />
+												</strong>
+											</span>
+										</Link>
 									</CardBody>
 								</Card>
 							);
@@ -281,13 +295,15 @@ export const Home = () => {
 										alt="..."
 									/>
 									<CardBody>
-										<span className="secondeparttextspam">
-											<strong>
-												{" "}
-												{item.title}
-												<br />
-											</strong>
-										</span>
+										<Link to="/comunidad-tres">
+											<span className="secondeparttextspam">
+												<strong>
+													{" "}
+													{item.title}
+													<br />
+												</strong>
+											</span>
+										</Link>
 									</CardBody>
 								</Card>
 							);
@@ -310,13 +326,15 @@ export const Home = () => {
 										alt="..."
 									/>
 									<CardBody>
-										<span className="secondeparttextspam">
-											<strong>
-												{" "}
-												{item.title}
-												<br />
-											</strong>
-										</span>
+										<Link to="/deportes-noticia-uno">
+											<span className="secondeparttextspam">
+												<strong>
+													{" "}
+													{item.title}
+													<br />
+												</strong>
+											</span>
+										</Link>
 									</CardBody>
 								</Card>
 							);
@@ -334,13 +352,15 @@ export const Home = () => {
 										alt="..."
 									/>
 									<CardBody>
-										<span className="secondeparttextspam">
-											<strong>
-												{" "}
-												{item.title}
-												<br />
-											</strong>
-										</span>
+										<Link to="/deportes-noticia-dos">
+											<span className="secondeparttextspam">
+												<strong>
+													{" "}
+													{item.title}
+													<br />
+												</strong>
+											</span>
+										</Link>
 									</CardBody>
 								</Card>
 							);
@@ -358,13 +378,15 @@ export const Home = () => {
 										alt="..."
 									/>
 									<CardBody>
-										<span className="secondeparttextspam">
-											<strong>
-												{" "}
-												{item.title}
-												<br />
-											</strong>
-										</span>
+										<Link to="/deportes-noticia-tres">
+											<span className="secondeparttextspam">
+												<strong>
+													{" "}
+													{item.title}
+													<br />
+												</strong>
+											</span>
+										</Link>
 									</CardBody>
 								</Card>
 							);
@@ -388,13 +410,15 @@ export const Home = () => {
 										alt="..."
 									/>
 									<CardBody>
-										<span className="secondeparttextspam">
-											<strong>
-												{" "}
-												{item.title}
-												<br />
-											</strong>
-										</span>
+										<Link to="/noticias-uno">
+											<span className="secondeparttextspam">
+												<strong>
+													{" "}
+													{item.title}
+													<br />
+												</strong>
+											</span>
+										</Link>
 									</CardBody>
 								</Card>
 							);
@@ -412,13 +436,15 @@ export const Home = () => {
 										alt="..."
 									/>
 									<CardBody>
-										<span className="secondeparttextspam">
-											<strong>
-												{" "}
-												{item.title}
-												<br />
-											</strong>
-										</span>
+										<Link to="/noticias-dos">
+											<span className="secondeparttextspam">
+												<strong>
+													{" "}
+													{item.title}
+													<br />
+												</strong>
+											</span>
+										</Link>
 									</CardBody>
 								</Card>
 							);
@@ -436,13 +462,15 @@ export const Home = () => {
 										alt="..."
 									/>
 									<CardBody>
-										<span className="secondeparttextspam">
-											<strong>
-												{" "}
-												{item.title}
-												<br />
-											</strong>
-										</span>
+										<Link to="/noticias-tres">
+											<span className="secondeparttextspam">
+												<strong>
+													{" "}
+													{item.title}
+													<br />
+												</strong>
+											</span>
+										</Link>
 									</CardBody>
 								</Card>
 							);

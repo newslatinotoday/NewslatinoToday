@@ -4,7 +4,7 @@ import { Card, Button, CardImg, CardTitle, CardText, CardGroup, CardSubtitle, Ca
 import { Link } from "react-router-dom";
 import { Context } from "../store/appContext";
 
-export const ComunidadTwo = () => {
+export const ComunidadOne = () => {
 	const { store, actions } = useContext(Context);
 
 	return (
@@ -31,13 +31,6 @@ export const ComunidadTwo = () => {
 							alt="..."
 						/>
 
-						{/* <div
-				className="deportes1"
-				style={{
-					height: "613px"
-					// width: "813px"
-				}}
-			/> */}
 						<br />
 						<br />
 						<div className="espacio3" />

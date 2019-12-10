@@ -17,7 +17,7 @@ import { ComunidadOne } from "./component/comunidad1";
 import { ComunidadTwo } from "./component/comunidad2";
 import { ComunidadThree } from "./component/comunidad3";
 import { NoticiasOne } from "./component/noticias1";
-import { Noticiastwo } from "./component/noticias2";
+import { NoticiasTwo } from "./component/noticias2";
 import { NoticiasThree } from "./component/noticias3";
 import { SeccionDeportes } from "./component/seccionDeportes";
 //create your first component
