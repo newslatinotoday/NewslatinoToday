@@ -8,7 +8,7 @@ import { Context } from "../store/appContext";
 // 	render() {
 // 		return (
 
-export const SeccionDeportes = () => {
+export const SeccionComunidad = () => {
 	const { store, actions } = useContext(Context);
 
 	return (
@@ -16,7 +16,7 @@ export const SeccionDeportes = () => {
 			<div className="container">
 				<div className="espacio2" />
 				<div>
-					{store.deportes1.map((item, index) => {
+					{store.comunidad1.map((item, index) => {
 						return (
 							<Card key={index}>
 								<span className="titulo">
@@ -61,7 +61,7 @@ export const SeccionDeportes = () => {
 					<br />
 					<br />
 					<br />
-					{store.deportes2.map((item, index) => {
+					{store.comunidad2.map((item, index) => {
 						return (
 							<Card key={index}>
 								<span className="titulo">
@@ -107,7 +107,7 @@ export const SeccionDeportes = () => {
 					<br />
 					<br />
 					<br />
-					{store.deportes3.map((item, index) => {
+					{store.comunidad3.map((item, index) => {
 						return (
 							<Card key={index}>
 								<span className="titulo">

@@ -23,14 +23,18 @@ export class NavbarHome extends React.Component {
 					<Navbar.Collapse id="basic-navbar-nav">
 						<Nav>
 							<Nav.Link href="#home">
-								<div>COMUNIDAD</div>
+								<Link to="/seccion-comunidad">
+									<div>COMUNIDAD</div>
+								</Link>
 							</Nav.Link>
 							<Nav.Link href="#nosotros">
 								<Link to="/seccion-deportes">
 									<div>DEPORTES</div>
 								</Link>
 							</Nav.Link>
-							<Nav.Link href="#contacto">NOTICIAS</Nav.Link>
+							<Link to="/seccion-noticias">
+								<Nav.Link href="#contacto">NOTICIAS</Nav.Link>
+							</Link>
 							<Nav.Link href="#galeria">
 								<div>SPONSORS</div>
 							</Nav.Link>
