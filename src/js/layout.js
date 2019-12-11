@@ -22,6 +22,7 @@ import { NoticiasThree } from "./component/noticias3";
 import { SeccionDeportes } from "./component/seccionDeportes";
 import { SeccionComunidad } from "./component/seccionComunidad";
 import { SeccionNoticias } from "./component/seccionNoticias";
+import { Sponsors } from "./component/sponsors";
 //create your first component
 export const Layout = () => {
 	//the basename is used when your project is published in a subdirectory and not in the root of the domain
@@ -46,6 +47,7 @@ export const Layout = () => {
 						<Route exact path="/comunidad-tres" component={ComunidadThree} />
 						<Route exact path="/seccion-deportes" component={SeccionDeportes} />
 						<Route exact path="/seccion-comunidad" component={SeccionComunidad} />
+						<Route exact path="/sponsors" component={Sponsors} />
 						<Route exact path="/seccion-noticias" component={SeccionNoticias} />
 						<Route path="/demo" component={Demo} />
 						{/* <Route exact path="/" component={HomePage} /> */}

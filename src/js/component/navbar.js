@@ -36,7 +36,9 @@ export class NavbarHome extends React.Component {
 								<Nav.Link href="#contacto">NOTICIAS</Nav.Link>
 							</Link>
 							<Nav.Link href="#galeria">
-								<div>SPONSORS</div>
+								<Link to="/sponsors">
+									<div>SPONSORS</div>
+								</Link>
 							</Nav.Link>
 							<Nav.Link href="#galeria">
 								<div>APOYA A NEWS LATINO TODAY</div>
