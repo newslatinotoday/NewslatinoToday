@@ -478,9 +478,19 @@ export const Home = () => {
 					</div>
 				</div>
 				<div className="espacio" />
-
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<div className="espacio" />
+				<div className="espacio" />
+				<div className="espacio" />
 				{/* SPONSORS!!!!!!!!!*/}
-				<span className="homespam">SPONSORS</span>
+				{/* <span className="homespam">SPONSORS</span>
 				<div>
 					<img
 						src="https://www.2ndvote.com/wp-content/uploads/2016/03/4973142632038400.jpg"
@@ -519,7 +529,7 @@ export const Home = () => {
 						className="img-fluid height-auto max-width-100% hopecafe logos"
 						alt="..."
 					/>
-				</div>
+				</div> */}
 			</div>
 		</React.Fragment>
 	);
