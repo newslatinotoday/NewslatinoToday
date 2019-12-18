@@ -13,7 +13,7 @@ export class NavbarHome extends React.Component {
 		return (
 			<React.Fragment>
 				<Navbar bg="light" expand="lg">
-					<Navbar.Brand className="m-auto" href="#home">
+					<Navbar.Brand className="m-auto sticky-top" href="#home">
 						<Link to="/">NewsLatinoToday</Link>
 						<i className="far fa-newspaper" />
 					</Navbar.Brand>

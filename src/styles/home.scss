@@ -2,6 +2,22 @@ body, html {
 height: 100%;
 
 }
+.link{
+     background-color: black;
+}
+a{
+color: black;
+    
+}
+
+a:hover {
+ color: #00adff;
+  text-decoration: none;
+}
+span:hover {
+  color: #00adff;
+  text-decoration: none;
+}
 .cardstrap{
     max-width: 540px;
 }
@@ -26,7 +42,7 @@ height: 100%;
     font-size: 20px;
 }
 .titulo{
-    font-size: 37px;
+    font-size: 34px;
    
 }
 // .deportes1 {
