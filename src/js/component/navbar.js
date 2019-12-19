@@ -13,14 +13,14 @@ export class NavbarHome extends React.Component {
 		return (
 			<React.Fragment>
 				<Navbar bg="light" expand="lg">
-					<Navbar.Brand className="m-auto sticky-top" href="#home">
+					<Navbar.Brand className="" href="#home">
 						<Link to="/">NewsLatinoToday</Link>
 						<i className="far fa-newspaper" />
 					</Navbar.Brand>
 				</Navbar>
 				<Navbar bg="light" expand="lg">
-					<Navbar.Toggle aria-controls="basic-navbar-nav" />
-					<Navbar.Collapse id="basic-navbar-nav">
+					<Navbar.Toggle aria-controls="basic-navbar-nav " />
+					<Navbar.Collapse id="basic-navbar-nav ml-auto">
 						<Nav>
 							<Nav.Link href="#home">
 								<Link to="/seccion-comunidad">

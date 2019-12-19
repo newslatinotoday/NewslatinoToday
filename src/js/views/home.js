@@ -90,6 +90,8 @@ export const Home = () => {
 											</Link>
 										</span>
 										<br />
+										<br />
+
 										<span className="littetextspam">
 											{item.halfdescription}
 											<br />

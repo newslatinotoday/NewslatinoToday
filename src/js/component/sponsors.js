@@ -19,9 +19,9 @@ export const Sponsors = () => {
 				<div className="card mb-3 cardstrap">
 					<div className="row no-gutters">
 						<div className="col-md-4">
-							<a href="https://www.aarp.org/espanol/">
+							<a href="http://www.weadfm.com/">
 								<img
-									src="https://www.2ndvote.com/wp-content/uploads/2016/03/4973142632038400.jpg"
+									src="http://www.weadfm.com/wp-content/uploads/2018/11/WEADlogo-DOT-COM-125.png"
 									className="card-img"
 									alt="..."
 								/>
@@ -30,8 +30,8 @@ export const Sponsors = () => {
 						<div className="col-md-8">
 							<div className="card-body">
 								<p className="card-text">
-									AARP es una organización sin fines de lucro, no partidaria y de bienestar social que
-									ayuda a las personas a convertir sus metas y sueños en posibilidades reales.
+									una estación radial orientada a la comunidad latina donde su voz es de suma
+									importancia.
 								</p>
 							</div>
 						</div>
@@ -123,12 +123,14 @@ export const Sponsors = () => {
 					</div>
 				</div>
 				<div className="espacio" />
+
+				<div className="espacio" />
 				<div className="card mb-3 cardstrap">
 					<div className="row no-gutters">
 						<div className="col-md-4">
-							<a href="http://www.weadfm.com/">
+							<a href="https://www.aarp.org/espanol/">
 								<img
-									src="http://www.weadfm.com/wp-content/uploads/2018/11/WEADlogo-DOT-COM-125.png"
+									src="https://www.2ndvote.com/wp-content/uploads/2016/03/4973142632038400.jpg"
 									className="card-img"
 									alt="..."
 								/>
@@ -137,14 +139,13 @@ export const Sponsors = () => {
 						<div className="col-md-8">
 							<div className="card-body">
 								<p className="card-text">
-									una estación radial orientada a la comunidad latina donde su voz es de suma
-									importancia.
+									AARP es una organización sin fines de lucro, no partidaria y de bienestar social que
+									ayuda a las personas a convertir sus metas y sueños en posibilidades reales.
 								</p>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div className="espacio" />
 			</div>
 		</React.Fragment>
 	);
