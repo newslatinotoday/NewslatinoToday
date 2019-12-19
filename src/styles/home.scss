@@ -2,6 +2,7 @@ body, html {
 height: 100%;
 
 }
+
 .link{
      background-color: black;
 }
@@ -30,12 +31,15 @@ a:hover {
 .logos{
     padding: 39px;
 }
+.footer{
+    font-family: 'Playfair Display', serif;
+}
 .volver{
         margin-left: 483px;
-        font-family: 'Merriweather', serif;
+        font-family: 'Playfair Display', serif;
 }
 .parrafo{
-    font-family: 'Merriweather', serif;
+    font-family: 'Playfair Display', serif;
     font-weight: 300;
     line-height: 150%;
     color: #111;
@@ -43,7 +47,7 @@ a:hover {
 }
 .titulo{
     font-size: 34px;
-   
+   font-family: 'Playfair Display', serif;
 }
 // .deportes1 {
 // background-image: url("https://media.tycsports.com/files/2019/08/28/67449/zlatan_416x234.jpg?v=2");
@@ -82,70 +86,23 @@ a:hover {
 }
 .secondeparttextspam{
     font-size: 21px;
-    font-family: nyt-cheltenham;
+    // font-family: nyt-cheltenham;
+    font-family: 'Playfair Display', serif;
 }
-// .comunidadFotos1{
-//     background-image: url("http://www.laconexionusa.com/fotosnoticias/g/esuclea.jpg");
 
-// background-position: center;
-// background-repeat: no-repeat;
-// background-size: cover;
-
-// }
-// .comunidadFotos2{
-//     background-image: url("http://www.laconexionusa.com/fotosnoticias/g/dolar.jpg");
-
-// background-position: center;
-// background-repeat: no-repeat;
-// background-size: cover;
-
-// }
-// .comunidadFotos3{
-//     background-image: url("http://www.laconexionusa.com/fotosnoticias/g/dia.jpg");
-
-// background-position: center;
-// background-repeat: no-repeat;
-// background-size: cover;
-
-// }
-
-
-// .noticias2{
-//     background-image: url("http://www.laconexionusa.com/fotosnoticias/g/Obamacare11.jpg");
-
-// background-position: center;
-// background-repeat: no-repeat;
-// background-size: cover;
-// }
-// .noticias3{
-//     background-image: url("http://www.laconexionusa.com/fotosnoticias/g/16012659w.jpg");
-// background-position: center;
-// background-repeat: no-repeat;
-// background-size: cover;
-   
-// }
-// .noticias1 {
-// // background-image: url("https://static01.nyt.com/images/2019/11/13/us/politics/13dc-impeach2/merlin_164329095_76d97a02-7ebf-4c45-a067-65bc1a1787a8-superJumbo.jpg?quality=90&auto=webp");
-// background-position: center;
-// background-repeat: no-repeat;
-// background-size: cover;
-// }
-// .image{
-//     background-position: center;
-// background-repeat: no-repeat;
-// background-size: cover;
-// }
 .textandphoto{
     margin-bottom: 20px;
       font-weight: 600;
-      font-family: nyt-cheltenham;
+    //   font-family: nyt-cheltenham;
+    font-family: 'Playfair Display', serif;
           font-size: 18px;
 }
 .lefttextspam{
      font-size: 20px;
     //  font-family: 'Oswald', sans-serif;
     //  font-family: 'Lato', sans-serif;
-    font-family: nyt-cheltenham;
+   
+   font-family: 'Playfair Display', serif;
 }
 // .derechaRow{
 //     // border-left:3px double #aaa;
@@ -163,13 +120,15 @@ border-left: 1px solid #aaa;
 .secciones {
     color: gray;
     font-size: 12px;
-     font-family: nyt-cheltenham; 
+    //  font-family: nyt-cheltenham; 
+    font-family: 'Playfair Display', serif;
 }
 
 .righttextspam{
     // font-family: 'Lato', sans-serif;
     font-size: 14px;
-    font-family: nyt-cheltenham;
+    // font-family: nyt-cheltenham;
+    font-family: 'Playfair Display', serif;
 }
 dl, ol, ul {
     // margin-top: 0;
@@ -178,6 +137,7 @@ dl, ol, ul {
     padding: 0px;
 }
 .date {
+    font-family: 'Playfair Display', serif;
     font-size: 12px;
     color:black;
 }
@@ -192,13 +152,15 @@ dl, ol, ul {
 
 .rowderecha{
      display: inline;
+     
 }
 .navbar-nav {
     // font-family: 'Poppins', sans-serif;
     // font-family: 'Montserrat', sans-serif;
     // font-family: 'Oswald', sans-serif;
     // font-family: 'Lato', sans-serif;
-    font-family: nyt-cheltenham;
+    // font-family: nyt-cheltenham;
+    font-family: 'Playfair Display', serif;
     font-weight: 900;
     font-size: 100%;
     letter-spacing: 0.5px;
@@ -235,6 +197,7 @@ margin: auto;
 font-family: 'Poppins', sans-serif;
 }
 .littetextspam{
+    font-family: 'Playfair Display', serif;
     // font-family: 'Lato', sans-serif;
     // font-family: nyt-cheltenham;
     // font-family: 'Oswald', sans-serif;
@@ -244,7 +207,8 @@ font-family: 'Poppins', sans-serif;
     color: #111;
 }
 .textspam{
-    font-family: nyt-cheltenham;
+    // font-family: nyt-cheltenham;
+    font-family: 'Playfair Display', serif;
     // font-family: 'Lato', sans-serif;
     // font-family: nyt-cheltenham;
 //      font-family: 'Poppins', sans-serif;
@@ -273,8 +237,11 @@ font-size: 30px;
 .bg-light {
     background-color: #f8f9fa00 !important;
 }
+.card-text{
+    font-family: 'Playfair Display', serif;
+}
 .homespam{
-font-family: suecaslabmedium,Georgia,"serif";
+font-family: 'Playfair Display', serif;
     font-size: 26px;
     line-height: 4.313rem;;
     font-weight: 400;
