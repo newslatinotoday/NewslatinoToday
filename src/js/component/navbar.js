@@ -32,16 +32,20 @@ export class NavbarHome extends React.Component {
 									<div>DEPORTES</div>
 								</Link>
 							</Nav.Link>
-							<Link to="/seccion-noticias">
-								<Nav.Link href="#contacto">NOTICIAS</Nav.Link>
-							</Link>
+							<Nav.Link href="#nosotros">
+								<Link to="/seccion-noticias">
+									<div>NOTICIAS</div>
+								</Link>
+							</Nav.Link>
 							<Nav.Link href="#galeria">
 								<Link to="/sponsors">
 									<div>SPONSORS</div>
 								</Link>
 							</Nav.Link>
 							<Nav.Link href="#galeria">
-								<div>APOYA A NEWS LATINO TODAY</div>
+								<Link to="">
+									<div>APOYA A NEWS LATINO TODAY</div>
+								</Link>
 							</Nav.Link>
 						</Nav>
 					</Navbar.Collapse>

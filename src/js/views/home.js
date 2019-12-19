@@ -31,14 +31,11 @@ export const Home = () => {
 									/>
 									<CardBody>
 										<span className="lefttextspam">
-											<Link to="/deportes-noticia-uno">
-												<strong>
-													{item.title}
-
-													<br />
-													<span className="secciones">{item.type}</span>
-												</strong>
-											</Link>
+											<strong>
+												<Link to="/deportes-noticia-uno">{item.title}</Link>
+											</strong>
+											<br />
+											<span className="secciones">{item.type}</span>
 										</span>
 										<br />
 									</CardBody>
@@ -87,19 +84,17 @@ export const Home = () => {
 										alt="..."
 									/>
 									<CardBody>
-										<Link to="/noticias-uno">
-											<span className="textspam">
+										<span className="textspam">
+											<Link to="/noticias-uno">
 												<strong>{item.title}</strong>
-											</span>
-										</Link>
+											</Link>
+										</span>
 										<br />
 										<span className="littetextspam">
 											{item.halfdescription}
 											<br />
-										</span>
-										<strong>
 											<span className="secciones">{item.type}</span>
-										</strong>
+										</span>
 									</CardBody>
 								</Card>
 							);
@@ -126,9 +121,8 @@ export const Home = () => {
 													</div>
 												</div>
 												<div>
-													<strong>
-														<span className="secciones float-left">{item.type}</span>
-													</strong>
+													<span className="secciones float-left">{item.type}</span>
+
 													<span className="date float-right"> {item.date}</span>
 												</div>
 											</Card>
@@ -153,10 +147,8 @@ export const Home = () => {
 													</div>
 												</div>
 												<div>
-													<strong>
-														{" "}
-														<span className="secciones float-left">{item.type}</span>
-													</strong>
+													{" "}
+													<span className="secciones float-left">{item.type}</span>
 													<span className="date float-right"> {item.date}</span>
 												</div>
 											</Card>
@@ -181,10 +173,8 @@ export const Home = () => {
 													</div>
 												</div>
 												<div>
-													<strong>
-														{" "}
-														<span className="secciones float-left">{item.type}</span>
-													</strong>
+													{" "}
+													<span className="secciones float-left">{item.type}</span>
 													<span className="date float-right"> {item.date}</span>
 												</div>
 											</Card>
@@ -209,10 +199,8 @@ export const Home = () => {
 													</div>
 												</div>
 												<div>
-													<strong>
-														{" "}
-														<span className="secciones float-left">{item.type}</span>
-													</strong>
+													{" "}
+													<span className="secciones float-left">{item.type}</span>
 													<span className="date float-right">{item.date}</span>
 													{/*  */}
 												</div>
