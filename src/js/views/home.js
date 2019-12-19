@@ -72,11 +72,6 @@ export const Home = () => {
 						{store.noticias1.map((item, index) => {
 							return (
 								<Card key={index}>
-									{/* <div
-										// className="noticias1"
-										backgroundImage={item.image}
-										style={{ height: "400px" }}
-									/> */}
 									<img
 										src={item.image}
 										height="400"

@@ -18,9 +18,9 @@ export class NavbarHome extends React.Component {
 						<i className="far fa-newspaper" />
 					</Navbar.Brand>
 				</Navbar>
-				<Navbar bg="light" expand="lg">
-					<Navbar.Toggle aria-controls="basic-navbar-nav " />
-					<Navbar.Collapse id="basic-navbar-nav ml-auto">
+				<Navbar bg="light" expand="lg" className="sticky-top">
+					<Navbar.Toggle aria-controls="basic-navbar-nav" />
+					<Navbar.Collapse id="basic-navbar-nav">
 						<Nav>
 							<Nav.Link href="#home">
 								<Link to="/seccion-comunidad">
