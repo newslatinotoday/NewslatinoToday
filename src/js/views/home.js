@@ -3,6 +3,7 @@ import rigoImage from "../../img/rigo-baby.jpg";
 import "../../styles/home.scss";
 import { Card, Button, CardImg, CardTitle, CardText, CardGroup, CardSubtitle, CardBody, CardDeck } from "reactstrap";
 import { Link } from "react-router-dom";
+
 import { Context } from "../store/appContext";
 export const Home = () => {
 	const { store, actions } = useContext(Context);
@@ -10,7 +11,6 @@ export const Home = () => {
 	return (
 		<React.Fragment>
 			{/* SECCION DE IZQUIERDA */}
-
 			<div className="container">
 				<div className="row row1">
 					<div className="col-sm-3 leftside">

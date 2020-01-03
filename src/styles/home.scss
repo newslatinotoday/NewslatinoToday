@@ -3,13 +3,11 @@ height: 100%;
 
 }
 .fullnavbar{
-    position: sticky;
+    padding: 0px;
 }
-.sticky-top{
-    background: white;
-   width: 100%;
-    top: 0;
-}
+.navbar-expand-lg .navbar-collapse {
+ 
+    background-color: white;}
 
 .link{
      background-color: black;
@@ -61,29 +59,9 @@ a:hover {
     font-size: 34px;
    font-family: 'Playfair Display', serif;
 }
-// .deportes1 {
-// background-image: url("https://media.tycsports.com/files/2019/08/28/67449/zlatan_416x234.jpg?v=2");
-// background-position: center;
-// background-repeat: no-repeat;
-// background-size: cover;
-// }
-
-// .deportes2 {
-// background-image: url("https://media.tycsports.com/files/2019/11/13/77306/daniel-angelici_862x485.jpeg");
-// background-position: center;
-// background-repeat: no-repeat;
-// background-size: cover;
-// }
-
-// .deportes3{
-//     background-image: url("https://bolavip.com/__export/1574892162406/sites/bolavip/img/2019/11/27/messi-final_crop1574892161540.jpg_1693159006.jpg");
-
-// background-position: center;
-// background-repeat: no-repeat;
-// background-size: cover;
 
     
-// }
+
 .espacio2{
     margin-top: 70px;
 }
@@ -275,46 +253,3 @@ margin:0px;
     padding: 0px;
 }
 
-// .jumbotron {
-//     // padding: 3rem 7rem;
-//     padding: 0px;
-//     padding-bottom: 103px;
-//     color: #fff;
-// background: #333;
-//     background-image: url(http://newslatinotoday.net/wp-content/uploads/2018/08/qtq50-H8S369.jpeg);
-//     background-size: cover;
-//     background-repeat: no-repeat;
-
-// }
-// .background-image{
-//     color: white;
-// }
-// hr {
-//     margin-top: 1rem;
-//     margin-bottom: 1rem;
-//     border: 0;
-//     border-top: 1px solid rgba(255, 255, 255, 0.65);
-// }
-
-// .display-3 {
-//     font-size: 1.5rem;
-//     font-weight: 300;
-//     line-height: 1.2;
-// }
-
-// .jumboedit{
-//     display: inline-block;
-//     margin-top: -34px;
-// }
-// .float-right {
-//     float: right !important;
-//     margin-top: 35px;
-//     margin-left: 56px;
-// }
-// .boxes{
-//     padding: 20px;
-//     color: white;
-// }
-// .container {
-//     padding: 33px;
-// }

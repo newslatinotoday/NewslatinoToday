@@ -7,7 +7,7 @@ import { Home } from "./views/home";
 import { Demo } from "./views/demo";
 import { Single } from "./views/single";
 import injectContext from "./store/appContext";
-// import Navbar from "react-bootstrap/Navbar";
+
 import { NavbarHome } from "./component/navbar";
 import { Footer } from "./component/footer";
 import { DeportesOne } from "./component/deportesOne";
