@@ -52,6 +52,14 @@ export const ComunidadOne = () => {
 						<Link to="/">
 							<span className="volver">Volver A La Pagina Principal</span>
 						</Link>
+						<div className="espacio" />
+						<div className="espacio" />
+
+						<br />
+						<div className="espacio" />
+						<div className="espacio" />
+
+						<br />
 					</div>
 				);
 			})}

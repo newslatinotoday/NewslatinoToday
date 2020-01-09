@@ -14,9 +14,17 @@ export class NavbarHome extends React.Component {
 			<React.Fragment>
 				<Navbar bg="light" expand="lg">
 					<Navbar.Brand className="" href="#home">
-						<Link to="/">NewsLatinoToday</Link>
-						<i className="far fa-newspaper" />
+						<Link to="/">
+							<img
+								src="https://scontent.fmia1-2.fna.fbcdn.net/v/t1.15752-9/81700594_520547998584329_1374220845584482304_n.png?_nc_cat=110&_nc_oc=AQmuoFtfUrNQwOCvVHo7EVyNYLn5hvEg8V9PQESrIpQ0DZItUtoTOukdD396Fh9gzjk&_nc_ht=scontent.fmia1-2.fna&oh=b9a4b4cdc8407f8a6754489187176b27&oe=5E91BBB7"
+								height="150"
+								width="350"
+								className="img-fluid max-width-100%"
+								alt="..."
+							/>
+						</Link>
 					</Navbar.Brand>
+					<div className="float-right">COMUNIDAD</div>
 				</Navbar>
 				<Navbar bg="light" expand="lg" className="fullnavbar" sticky="top">
 					<Navbar.Toggle aria-controls="basic-navbar-nav" />

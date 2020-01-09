@@ -477,17 +477,13 @@ export const Home = () => {
 				<div className="espacio" />
 				<div className="espacio" />
 				<div className="espacio" />
-				<div className="espacio" />
-				<div className="espacio" />
-				<div className="espacio" />
+
 				<br />
 				<br />
 				<br />
 				<br />
 				<br />
-				<br />
-				<br />
-				<br />
+
 				{/* SPONSORS!!!!!!!!!*/}
 				{/* <span className="homespam">SPONSORS</span>
 				<div>
