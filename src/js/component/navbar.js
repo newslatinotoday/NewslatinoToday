@@ -24,7 +24,7 @@ export class NavbarHome extends React.Component {
 							/>
 						</Link>
 					</Navbar.Brand>
-					<div className="float-right">COMUNIDAD</div>
+					{/* <div className="icons">COMUNIDAD</div> */}
 				</Navbar>
 				<Navbar bg="light" expand="lg" className="fullnavbar" sticky="top">
 					<Navbar.Toggle aria-controls="basic-navbar-nav" />
