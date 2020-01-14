@@ -12,6 +12,13 @@ export class NavbarHome extends React.Component {
 	render() {
 		return (
 			<React.Fragment>
+				<div className="icons ml-auto pr-5 pt-3 img-fluid max-width-100%">
+					<i className="fab fa-instagram icon" />
+
+					<i className="fab fa-twitter icon" />
+
+					<i className="fab fa-facebook icon" />
+				</div>
 				<Navbar bg="light" expand="lg">
 					<Navbar.Brand className="" href="#home">
 						<Link to="/">
@@ -24,7 +31,6 @@ export class NavbarHome extends React.Component {
 							/>
 						</Link>
 					</Navbar.Brand>
-					{/* <div className="icons">COMUNIDAD</div> */}
 				</Navbar>
 				<Navbar bg="light" expand="lg" className="fullnavbar" sticky="top">
 					<Navbar.Toggle aria-controls="basic-navbar-nav" />
