@@ -12,12 +12,16 @@ export class NavbarHome extends React.Component {
 	render() {
 		return (
 			<React.Fragment>
-				<div className="icons ml-auto pr-5 pt-3 img-fluid max-width-100%">
-					<i className="fab fa-instagram icon" />
-
-					<i className="fab fa-twitter icon" />
-
-					<i className="fab fa-facebook icon" />
+				<div className="container icons img-fluid max-width-100%">
+					<a href="https://www.instagram.com/newslatinotoday/?igshid=1dry1vf5zy37a">
+						<i className="fab fa-instagram icon" />
+					</a>
+					<a href="https://twitter.com/intent/follow?original_referer=https%3A%2F%2Fwww.fnmaker.com%2Ftwitterforpage%2Ftab%2F&ref_src=twsrc%5Etfw&screen_name=NewsLatinoToday&tw_p=followbutton">
+						<i className="fab fa-twitter icon" />
+					</a>
+					<a href="https://www.facebook.com/NewsLatinoToday/">
+						<i className="fab fa-facebook icon" />
+					</a>
 				</div>
 				<Navbar bg="light" expand="lg">
 					<Navbar.Brand className="" href="#home">
