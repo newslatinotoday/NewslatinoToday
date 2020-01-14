@@ -23,7 +23,7 @@ export class NavbarHome extends React.Component {
 					<Navbar.Brand className="" href="#home">
 						<Link to="/">
 							<img
-								src="https://scontent.fmia1-2.fna.fbcdn.net/v/t1.15752-9/81700594_520547998584329_1374220845584482304_n.png?_nc_cat=110&_nc_oc=AQmuoFtfUrNQwOCvVHo7EVyNYLn5hvEg8V9PQESrIpQ0DZItUtoTOukdD396Fh9gzjk&_nc_ht=scontent.fmia1-2.fna&oh=b9a4b4cdc8407f8a6754489187176b27&oe=5E91BBB7"
+								src="https://scontent.fmia1-1.fna.fbcdn.net/v/t1.15752-9/83194744_599465614209879_3208406626709012480_n.png?_nc_cat=108&_nc_oc=AQkxY8VZg0_V1rl-zuezge-EyAAw2eXJXYhYt3yiZfZvyzfZ3Ut1HwVIYCSfgdwKHrg2o-GgnuYrCWyjB-yACm17&_nc_ht=scontent.fmia1-1.fna&oh=1fe7f5d32987f7527636ba8a8931d86d&oe=5ED9BC60"
 								height="150"
 								width="350"
 								className="img-fluid max-width-100%"
