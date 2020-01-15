@@ -62,7 +62,7 @@ export class NavbarHome extends React.Component {
 							</Nav.Link>
 							<Nav.Link href="#galeria">
 								<Link to="">
-									<div>APOYA A NEWS LATINO TODAY</div>
+									<div>APOYA A COMUNIDAD VIDA NUEVA</div>
 								</Link>
 							</Nav.Link>
 						</Nav>
