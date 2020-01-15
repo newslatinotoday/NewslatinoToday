@@ -23,51 +23,55 @@ export class NavbarHome extends React.Component {
 						<i className="fab fa-facebook icon" />
 					</a>
 				</div>
-				<Navbar bg="light" expand="lg">
-					<Navbar.Brand className="" href="#home">
-						<Link to="/">
-							<img
-								src="https://scontent.fmia1-1.fna.fbcdn.net/v/t1.15752-9/83194744_599465614209879_3208406626709012480_n.png?_nc_cat=108&_nc_oc=AQkxY8VZg0_V1rl-zuezge-EyAAw2eXJXYhYt3yiZfZvyzfZ3Ut1HwVIYCSfgdwKHrg2o-GgnuYrCWyjB-yACm17&_nc_ht=scontent.fmia1-1.fna&oh=1fe7f5d32987f7527636ba8a8931d86d&oe=5ED9BC60"
-								height="150"
-								width="350"
-								className="img-fluid max-width-100%"
-								alt="..."
-							/>
-						</Link>
-					</Navbar.Brand>
-				</Navbar>
-				<Navbar bg="light" expand="lg" className="fullnavbar" sticky="top">
-					<Navbar.Toggle aria-controls="basic-navbar-nav" />
-					<Navbar.Collapse id="basic-navbar-nav">
-						<Nav>
-							<Nav.Link href="#home">
-								<Link to="/seccion-comunidad">
-									<div>COMUNIDAD</div>
-								</Link>
-							</Nav.Link>
-							<Nav.Link href="#nosotros">
-								<Link to="/seccion-deportes">
-									<div>DEPORTES</div>
-								</Link>
-							</Nav.Link>
-							<Nav.Link href="#nosotros">
-								<Link to="/seccion-noticias">
-									<div>NOTICIAS</div>
-								</Link>
-							</Nav.Link>
-							<Nav.Link href="#galeria">
-								<Link to="/sponsors">
-									<div>SPONSORS</div>
-								</Link>
-							</Nav.Link>
-							<Nav.Link href="#galeria">
-								<Link to="">
-									<div>APOYA A COMUNIDAD VIDA NUEVA</div>
-								</Link>
-							</Nav.Link>
-						</Nav>
-					</Navbar.Collapse>
-				</Navbar>
+				{/* <Navbar bg="light" expand="lg">
+                    <Navbar.Brand className="" href="#home"> */}
+				<div className="logoHome container text-center">
+					<Link to="/">
+						<img
+							src="https://scontent.fmia1-1.fna.fbcdn.net/v/t1.15752-9/83194744_599465614209879_3208406626709012480_n.png?_nc_cat=108&_nc_oc=AQkxY8VZg0_V1rl-zuezge-EyAAw2eXJXYhYt3yiZfZvyzfZ3Ut1HwVIYCSfgdwKHrg2o-GgnuYrCWyjB-yACm17&_nc_ht=scontent.fmia1-1.fna&oh=1fe7f5d32987f7527636ba8a8931d86d&oe=5ED9BC60"
+							height="150"
+							width="350"
+							className="img-fluid max-width-100%"
+							alt="..."
+						/>
+					</Link>
+				</div>
+				{/* </Navbar.Brand>
+				</Navbar> */}
+				<div className="sticky-top">
+					<Navbar bg="light" expand="lg" className="fullnavbar" sticky="top">
+						<Navbar.Toggle aria-controls="basic-navbar-nav" />
+						<Navbar.Collapse id="basic-navbar-nav">
+							<Nav>
+								<Nav.Link href="#home">
+									<Link to="/seccion-comunidad">
+										<div>COMUNIDAD</div>
+									</Link>
+								</Nav.Link>
+								<Nav.Link href="#nosotros">
+									<Link to="/seccion-deportes">
+										<div>DEPORTES</div>
+									</Link>
+								</Nav.Link>
+								<Nav.Link href="#nosotros">
+									<Link to="/seccion-noticias">
+										<div>NOTICIAS</div>
+									</Link>
+								</Nav.Link>
+								<Nav.Link href="#galeria">
+									<Link to="/sponsors">
+										<div>SPONSORS</div>
+									</Link>
+								</Nav.Link>
+								<Nav.Link href="#galeria">
+									<Link to="">
+										<div>APOYA A COMUNIDAD VIDA NUEVA</div>
+									</Link>
+								</Nav.Link>
+							</Nav>
+						</Navbar.Collapse>
+					</Navbar>
+				</div>
 			</React.Fragment>
 		);
 	}

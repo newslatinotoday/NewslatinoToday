@@ -5,6 +5,10 @@ height: 100%;
 .Logo{
     float:right;
 }
+.logoHome{
+        margin-top: 15px;
+    margin-bottom: 11px;
+}
 .navbar-expand-lg {
     /* padding-left: 0px; */
     padding: 0px;}
@@ -18,6 +22,7 @@ height: 100%;
 }
 .fullnavbar{
     padding: 0px;
+    // padding: 235px;
 }
 .navbar-expand-lg .navbar-collapse {
  
@@ -267,3 +272,17 @@ margin:0px;
     padding: 0px;
 }
 
+// **********
+// PAOLO TEST
+// **********
+
+.top-container{
+    background: #f1f1f1;
+    padding:30px;
+    text-align: center;
+}
+.myHeader{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}

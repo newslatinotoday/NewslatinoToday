@@ -23,6 +23,7 @@ import { SeccionDeportes } from "./component/seccionDeportes";
 import { SeccionComunidad } from "./component/seccionComunidad";
 import { SeccionNoticias } from "./component/seccionNoticias";
 import { Sponsors } from "./component/sponsors";
+import { HeaderLogo } from "../js/component/test";
 //create your first component
 export const Layout = () => {
 	//the basename is used when your project is published in a subdirectory and not in the root of the domain
@@ -33,6 +34,7 @@ export const Layout = () => {
 		<div className="d-flex flex-column h-100">
 			<BrowserRouter>
 				<ScrollToTop>
+					{/* <HeaderLogo /> */}
 					<NavbarHome />
 					<Switch>
 						<Route exact path="/" component={Home} />
