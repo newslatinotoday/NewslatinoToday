@@ -8,6 +8,8 @@ import { Demo } from "./views/demo";
 import { Single } from "./views/single";
 import injectContext from "./store/appContext";
 import { Logo } from "./component/mdgLogo";
+import { LatinoLogo } from "./component/logo";
+import { Test } from "./component/test";
 import { NavbarHome } from "./component/navbar";
 import { Footer } from "./component/footer";
 import { DeportesOne } from "./component/deportesOne";
@@ -35,7 +37,8 @@ export const Layout = () => {
 			<BrowserRouter>
 				<ScrollToTop>
 					{/* <HeaderLogo /> */}
-					<NavbarHome />
+					<LatinoLogo />
+					<Test />
 					<Switch>
 						<Route exact path="/" component={Home} />
 						<Route exact path="/deportes-noticia-uno" component={DeportesOne} />

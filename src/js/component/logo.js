@@ -8,7 +8,7 @@ import FormControl from "react-bootstrap/FormControl";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import { Link } from "react-router-dom";
 
-export class NavbarHome extends React.Component {
+export class LatinoLogo extends React.Component {
 	render() {
 		return (
 			<React.Fragment>
@@ -36,41 +36,6 @@ export class NavbarHome extends React.Component {
 						/>
 					</Link>
 				</div>
-				{/* </Navbar.Brand>
-				</Navbar> */}
-
-				<Navbar bg="light" expand="lg" className="fullnavbar" sticky="top">
-					<Navbar.Toggle aria-controls="basic-navbar-nav" />
-					<Navbar.Collapse id="basic-navbar-nav">
-						<Nav>
-							<Nav.Link href="#home">
-								<Link to="/seccion-comunidad">
-									<div>COMUNIDAD</div>
-								</Link>
-							</Nav.Link>
-							<Nav.Link href="#nosotros">
-								<Link to="/seccion-deportes">
-									<div>DEPORTES</div>
-								</Link>
-							</Nav.Link>
-							<Nav.Link href="#nosotros">
-								<Link to="/seccion-noticias">
-									<div>NOTICIAS</div>
-								</Link>
-							</Nav.Link>
-							<Nav.Link href="#galeria">
-								<Link to="/sponsors">
-									<div>SPONSORS</div>
-								</Link>
-							</Nav.Link>
-							<Nav.Link href="#galeria">
-								<Link to="">
-									<div>APOYA A COMUNIDAD VIDA NUEVA</div>
-								</Link>
-							</Nav.Link>
-						</Nav>
-					</Navbar.Collapse>
-				</Navbar>
 			</React.Fragment>
 		);
 	}
