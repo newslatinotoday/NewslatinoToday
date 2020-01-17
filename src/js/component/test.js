@@ -19,9 +19,9 @@ export const Test = () => {
 	return position.y < 191 ? (
 		<Navbar
 			expand="lg"
-			className="fullnavbar"
+			className="fullnavbar stop-sticky"
 			sticky="top"
-			style={{ backgroundColor: window.scrollY > 10 ? "red" : "transparent" }}>
+			style={{ backgroundColor: window.scrollY > 10 ? "white" : "transparent" }}>
 			<Navbar.Toggle aria-controls="basic-navbar-nav" />
 			<Navbar.Collapse id="basic-navbar-nav">
 				<Nav>
@@ -56,7 +56,7 @@ export const Test = () => {
 	) : (
 		<Navbar
 			expand="lg"
-			className="fullnavbar"
+			className="fullnavbar stop-sticky"
 			fixed="top"
 			style={{ backgroundColor: window.scrollY > 10 ? "white" : "transparent" }}>
 			<Navbar.Toggle aria-controls="basic-navbar-nav" />

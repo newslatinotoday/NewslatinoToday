@@ -289,3 +289,9 @@ margin:0px;
     top: 0px;
     width: 100%;
 }
+
+.stop-sticky{
+    @media only screen and (max-width: 990px) {
+        position: static;
+    }
+}
