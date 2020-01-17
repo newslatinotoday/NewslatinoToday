@@ -16,7 +16,7 @@ export const Test = () => {
 	let position = useWindowScrollPosition(options);
 	console.log(position);
 	// position == { x: 0, y: 0 }
-	return position.y < 205 ? (
+	return position.y < 193 ? (
 		<Navbar
 			expand="lg"
 			className="fullnavbar"
@@ -58,10 +58,23 @@ export const Test = () => {
 			expand="lg"
 			className="fullnavbar"
 			fixed="top"
-			style={{ backgroundColor: window.scrollY > 10 ? "red" : "transparent" }}>
+			style={{ backgroundColor: window.scrollY > 10 ? "white" : "transparent" }}>
 			<Navbar.Toggle aria-controls="basic-navbar-nav" />
 			<Navbar.Collapse id="basic-navbar-nav">
 				<Nav>
+					<Nav.Link href="#home">
+						<Link to="/seccion-comunidad">
+							<div>
+								<img
+									src="https://scontent.fmia1-1.fna.fbcdn.net/v/t1.15752-9/83194744_599465614209879_3208406626709012480_n.png?_nc_cat=108&_nc_oc=AQkxY8VZg0_V1rl-zuezge-EyAAw2eXJXYhYt3yiZfZvyzfZ3Ut1HwVIYCSfgdwKHrg2o-GgnuYrCWyjB-yACm17&_nc_ht=scontent.fmia1-1.fna&oh=1fe7f5d32987f7527636ba8a8931d86d&oe=5ED9BC60"
+									height="150"
+									width="41"
+									className="img-fluid max-width-100% mr-3"
+									alt="..."
+								/>
+							</div>
+						</Link>
+					</Nav.Link>
 					<Nav.Link href="#home">
 						<Link to="/seccion-comunidad">
 							<div>COMUNIDAD</div>
