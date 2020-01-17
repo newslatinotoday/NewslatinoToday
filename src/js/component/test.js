@@ -16,7 +16,7 @@ export const Test = () => {
 	let position = useWindowScrollPosition(options);
 	console.log(position);
 	// position == { x: 0, y: 0 }
-	return position.y < 193 ? (
+	return position.y < 191 ? (
 		<Navbar
 			expand="lg"
 			className="fullnavbar"
