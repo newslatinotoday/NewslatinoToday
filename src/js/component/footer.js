@@ -5,8 +5,8 @@ export const Footer = () => (
 		<div className="espacio3" />
 
 		<p className="footer">
-			© 2019 NewsLatinoToday - Correo Electronico: Newslatinotoday@gmail.com - Telefono: (919)521-2152 - Locacion De
-			Oficina: Raleigh, NC
+			© 2019 NewsLatinoToday - Correo Electronico: Newslatinotoday@gmail.com - Telefono: (919)521-2152 - Locacion
+			De Oficina: Raleigh, NC
 		</p>
 	</footer>
 );

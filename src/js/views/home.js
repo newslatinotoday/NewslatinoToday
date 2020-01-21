@@ -468,17 +468,7 @@ export const Home = () => {
 				<br />
 				<br />
 				<br />
-				<br />
-				<br />
-				<br />
-				<div className="espacio" />
-				<div className="espacio" />
-				<div className="espacio" />
-				<div className="espacio" />
 
-				<br />
-				<br />
-				<br />
 				<br />
 				<br />
 
