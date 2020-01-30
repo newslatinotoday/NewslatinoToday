@@ -17,7 +17,7 @@ export const DeportesThree = () => {
 							<span className="titulo">
 								<strong>
 									{item.title}
-									{/* Ibrahimovic se despidió de Los Ángeles Galaxy y los mandó {"a ver béisbol"} */}
+									{/* Ibrahimovie despidió de Los Ángeles Galaxy y los mandó {"a ver béisbol"} */}
 									<br />
 								</strong>
 							</span>
