@@ -45,11 +45,11 @@ export const Test = () => {
 							<div>SPONSORS</div>
 						</Link>
 					</Nav.Link>
-					<Nav.Link href="#galeria">
+					{/* <Nav.Link href="#galeria">
 						<Link to="">
 							<div>APOYA A COMUNIDAD VIDA NUEVA</div>
 						</Link>
-					</Nav.Link>
+					</Nav.Link> */}
 				</Nav>
 			</Navbar.Collapse>
 		</Navbar>
@@ -95,11 +95,11 @@ export const Test = () => {
 							<div>SPONSORS</div>
 						</Link>
 					</Nav.Link>
-					<Nav.Link href="#galeria">
+					{/* <Nav.Link href="#galeria">
 						<Link to="">
 							<div>APOYA A COMUNIDAD VIDA NUEVA</div>
 						</Link>
-					</Nav.Link>
+					</Nav.Link> */}
 				</Nav>
 			</Navbar.Collapse>
 		</Navbar>

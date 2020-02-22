@@ -37,7 +37,159 @@ export const DeportesOne = () => {
 					height: "613px"
 					// width: "813px"
 				}}
-			/> */}
+            /> */}
+						{/* <span className="homespam">COMUNIDAD</span> */}
+						<br />
+						<br />
+
+						<div className="row row1 spacewithmain">
+							<div className="col-sm-4">
+								{store.comunidad1.map((item, index) => {
+									return (
+										<Card key={index}>
+											{/* <div className="comunidadFotos1" style={{ height: "300px" }} /> */}
+											<img
+												src={item.image}
+												height="300"
+												className="img-fluid height-auto max-width-100%"
+												alt="..."
+											/>
+											<CardBody>
+												<span className="secondeparttextspam">
+													<strong>
+														{" "}
+														{/* {item.title} */}
+														<br />
+													</strong>
+												</span>
+											</CardBody>
+										</Card>
+									);
+								})}
+							</div>
+							<div className="col-sm-4">
+								{store.comunidad2.map((item, index) => {
+									return (
+										<Card key={index}>
+											{/* <div className="comunidadFotos1" style={{ height: "300px" }} /> */}
+											<img
+												src={item.image}
+												height="300"
+												className="img-fluid height-auto max-width-100%"
+												alt="..."
+											/>
+											<CardBody>
+												<span className="secondeparttextspam">
+													<strong>
+														{" "}
+														{/* {item.title} */}
+														<br />
+													</strong>
+												</span>
+											</CardBody>
+										</Card>
+									);
+								})}
+							</div>
+							<div className="col-sm-4">
+								{store.comunidad3.map((item, index) => {
+									return (
+										<Card key={index}>
+											{/* <div className="comunidadFotos1" style={{ height: "300px" }} /> */}
+											<img
+												src={item.image}
+												height="300"
+												className="img-fluid height-auto max-width-100%"
+												alt="..."
+											/>
+											<CardBody>
+												<span className="secondeparttextspam">
+													<strong>
+														{" "}
+														{/* {item.title} */}
+														<br />
+													</strong>
+												</span>
+											</CardBody>
+										</Card>
+									);
+								})}
+							</div>
+						</div>
+						<div className="row row1">
+							<div className="col-sm-4">
+								{store.comunidad1.map((item, index) => {
+									return (
+										<Card key={index}>
+											{/* <div className="comunidadFotos1" style={{ height: "300px" }} /> */}
+											<img
+												src={item.image}
+												height="300"
+												className="img-fluid height-auto max-width-100%"
+												alt="..."
+											/>
+											<CardBody>
+												<span className="secondeparttextspam">
+													<strong>
+														{" "}
+														{/* {item.title} */}
+														<br />
+													</strong>
+												</span>
+											</CardBody>
+										</Card>
+									);
+								})}
+							</div>
+							<div className="col-sm-4">
+								{store.comunidad2.map((item, index) => {
+									return (
+										<Card key={index}>
+											{/* <div className="comunidadFotos1" style={{ height: "300px" }} /> */}
+											<img
+												src={item.image}
+												height="300"
+												className="img-fluid height-auto max-width-100%"
+												alt="..."
+											/>
+											<CardBody>
+												<span className="secondeparttextspam">
+													<strong>
+														{" "}
+														{/* {item.title} */}
+														<br />
+													</strong>
+												</span>
+											</CardBody>
+										</Card>
+									);
+								})}
+							</div>
+							<div className="col-sm-4">
+								{store.comunidad3.map((item, index) => {
+									return (
+										<Card key={index}>
+											{/* <div className="comunidadFotos1" style={{ height: "300px" }} /> */}
+											<img
+												src={item.image}
+												height="300"
+												className="img-fluid height-auto max-width-100%"
+												alt="..."
+											/>
+											<CardBody>
+												<span className="secondeparttextspam">
+													<strong>
+														{" "}
+														{/* {item.title} */}
+														<br />
+													</strong>
+												</span>
+											</CardBody>
+										</Card>
+									);
+								})}
+							</div>
+						</div>
 						<br />
 						<br />
 						<div className="espacio3" />
