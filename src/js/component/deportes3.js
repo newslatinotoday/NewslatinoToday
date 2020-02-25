@@ -32,7 +32,7 @@ export const DeportesThree = () => {
 						/>
 
 						{/* <div
-				className="deportes1"
+				className="deportes3"
 				style={{
 					height: "613px"
 					// width: "813px"
@@ -41,7 +41,7 @@ export const DeportesThree = () => {
 						<br />
 						<br />
 						<div className="espacio3" />
-						<p className="parrafo">
+						{/* <p className="parrafo">
 							El sueco, fiel a su estilo, le dijo adiós al conjunto de la MLS con un mensaje picante. A su
 							vez, agradeció el apoyo del club que lo hizo sentir vivo de nuevo.
 							<br />
@@ -54,7 +54,158 @@ export const DeportesThree = () => {
 							Vine, vi y conquisté. Gracias por hacerme sentir vivo de nuevo. A los hinchas, quisieron
 							Zlatan y les di Zlatan. Son bienvenidos, la historia continúa. Ahora vuelvan a ver béisbol,
 							escribió el sueco, fiel a su estilo, en su cuenta de Twitter.
-						</p>
+                        </p> */}
+						<div className="row row1 spacewithmain">
+							<div className="col-sm-4">
+								{store.deportes3.map((item, index) => {
+									return (
+										<Card key={index}>
+											{/* <div className="comunidadFotos1" style={{ height: "300px" }} /> */}
+											<img
+												src={item.image2}
+												height="613"
+												width="100%"
+												className="img-fluid height-auto max-width-100%"
+												alt="..."
+											/>
+											<CardBody>
+												<span className="secondeparttextspam">
+													<strong>
+														{" "}
+														{/* {item.title} */}
+														<br />
+													</strong>
+												</span>
+											</CardBody>
+										</Card>
+									);
+								})}
+							</div>
+							<div className="col-sm-4">
+								{store.deportes3.map((item, index) => {
+									return (
+										<Card key={index}>
+											{/* <div className="comunidadFotos1" style={{ height: "300px" }} /> */}
+											<img
+												src={item.image3}
+												height="613"
+												width="100%"
+												className="img-fluid height-auto max-width-100%"
+												alt="..."
+											/>
+											<CardBody>
+												<span className="secondeparttextspam">
+													<strong>
+														{" "}
+														{/* {item.title} */}
+														<br />
+													</strong>
+												</span>
+											</CardBody>
+										</Card>
+									);
+								})}
+							</div>
+
+							<div className="col-sm-4">
+								{store.deportes3.map((item, index) => {
+									return (
+										<Card key={index}>
+											{/* <div className="comunidadFotos1" style={{ height: "300px" }} /> */}
+											<img
+												src={item.image4}
+												height="300"
+												className="img-fluid height-auto max-width-100%"
+												alt="..."
+											/>
+											<CardBody>
+												<span className="secondeparttextspam">
+													<strong>
+														{" "}
+														{/* {item.title} */}
+														<br />
+													</strong>
+												</span>
+											</CardBody>
+										</Card>
+									);
+								})}
+							</div>
+						</div>
+						<div className="row row1">
+							<div className="col-sm-4">
+								{store.deportes3.map((item, index) => {
+									return (
+										<Card key={index}>
+											{/* <div className="comunidadFotos1" style={{ height: "300px" }} /> */}
+											<img
+												src={item.image5}
+												height="300"
+												className="img-fluid height-auto max-width-100%"
+												alt="..."
+											/>
+											<CardBody>
+												<span className="secondeparttextspam">
+													<strong>
+														{" "}
+														{/* {item.title} */}
+														<br />
+													</strong>
+												</span>
+											</CardBody>
+										</Card>
+									);
+								})}
+							</div>
+							<div className="col-sm-4">
+								{store.deportes3.map((item, index) => {
+									return (
+										<Card key={index}>
+											{/* <div className="comunidadFotos1" style={{ height: "300px" }} /> */}
+											<img
+												src={item.image6}
+												height="300"
+												className="img-fluid height-auto max-width-100%"
+												alt="..."
+											/>
+											<CardBody>
+												<span className="secondeparttextspam">
+													<strong>
+														{" "}
+														{/* {item.title} */}
+														<br />
+													</strong>
+												</span>
+											</CardBody>
+										</Card>
+									);
+								})}
+							</div>
+							<div className="col-sm-4">
+								{store.deportes3.map((item, index) => {
+									return (
+										<Card key={index}>
+											{/* <div className="comunidadFotos1" style={{ height: "300px" }} /> */}
+											<img
+												src={item.image7}
+												height="300"
+												className="img-fluid height-auto max-width-100%"
+												alt="..."
+											/>
+											<CardBody>
+												<span className="secondeparttextspam">
+													<strong>
+														{" "}
+														{/* {item.title} */}
+														<br />
+													</strong>
+												</span>
+											</CardBody>
+										</Card>
+									);
+								})}
+							</div>
+						</div>
 						<div className="espacio2" />
 						<Link to="/">
 							<span className="volver">Volver A La Pagina Principal</span>

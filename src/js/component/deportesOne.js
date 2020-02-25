@@ -44,13 +44,14 @@ export const DeportesOne = () => {
 
 						<div className="row row1 spacewithmain">
 							<div className="col-sm-4">
-								{store.comunidad1.map((item, index) => {
+								{store.deportes1.map((item, index) => {
 									return (
 										<Card key={index}>
 											{/* <div className="comunidadFotos1" style={{ height: "300px" }} /> */}
 											<img
-												src={item.image}
-												height="300"
+												src={item.image2}
+												height="613"
+												width="100%"
 												className="img-fluid height-auto max-width-100%"
 												alt="..."
 											/>
@@ -68,13 +69,14 @@ export const DeportesOne = () => {
 								})}
 							</div>
 							<div className="col-sm-4">
-								{store.comunidad2.map((item, index) => {
+								{store.deportes1.map((item, index) => {
 									return (
 										<Card key={index}>
 											{/* <div className="comunidadFotos1" style={{ height: "300px" }} /> */}
 											<img
-												src={item.image}
-												height="300"
+												src={item.image3}
+												height="613"
+												width="100%"
 												className="img-fluid height-auto max-width-100%"
 												alt="..."
 											/>
@@ -91,13 +93,14 @@ export const DeportesOne = () => {
 									);
 								})}
 							</div>
+
 							<div className="col-sm-4">
-								{store.comunidad3.map((item, index) => {
+								{store.deportes1.map((item, index) => {
 									return (
 										<Card key={index}>
 											{/* <div className="comunidadFotos1" style={{ height: "300px" }} /> */}
 											<img
-												src={item.image}
+												src={item.image4}
 												height="300"
 												className="img-fluid height-auto max-width-100%"
 												alt="..."
@@ -118,12 +121,12 @@ export const DeportesOne = () => {
 						</div>
 						<div className="row row1">
 							<div className="col-sm-4">
-								{store.comunidad1.map((item, index) => {
+								{store.deportes1.map((item, index) => {
 									return (
 										<Card key={index}>
 											{/* <div className="comunidadFotos1" style={{ height: "300px" }} /> */}
 											<img
-												src={item.image}
+												src={item.image5}
 												height="300"
 												className="img-fluid height-auto max-width-100%"
 												alt="..."
@@ -142,12 +145,12 @@ export const DeportesOne = () => {
 								})}
 							</div>
 							<div className="col-sm-4">
-								{store.comunidad2.map((item, index) => {
+								{store.deportes1.map((item, index) => {
 									return (
 										<Card key={index}>
 											{/* <div className="comunidadFotos1" style={{ height: "300px" }} /> */}
 											<img
-												src={item.image}
+												src={item.image6}
 												height="300"
 												className="img-fluid height-auto max-width-100%"
 												alt="..."
@@ -166,12 +169,12 @@ export const DeportesOne = () => {
 								})}
 							</div>
 							<div className="col-sm-4">
-								{store.comunidad3.map((item, index) => {
+								{store.deportes1.map((item, index) => {
 									return (
 										<Card key={index}>
 											{/* <div className="comunidadFotos1" style={{ height: "300px" }} /> */}
 											<img
-												src={item.image}
+												src={item.image7}
 												height="300"
 												className="img-fluid height-auto max-width-100%"
 												alt="..."

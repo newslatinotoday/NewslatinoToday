@@ -40,7 +40,7 @@ export const SeccionDeportes = () => {
 				<br />
 				<br />
 				<div className="espacio3" />
-				<p className="parrafo">
+				{/* <p className="parrafo">
 					El sueco, fiel a su estilo, le dijo adiós al conjunto de la MLS con un mensaje picante. A su vez,
 					agradeció el apoyo del club que lo hizo sentir vivo de nuevo.
 					<br />
@@ -53,7 +53,7 @@ export const SeccionDeportes = () => {
 					Vine, vi y conquisté. Gracias por hacerme sentir vivo de nuevo. A los hinchas, quisieron Zlatan y
 					les di Zlatan. Son bienvenidos, la historia continúa. Ahora vuelvan a ver béisbol, escribió el
 					sueco, fiel a su estilo, en su cuenta de Twitter.
-				</p>
+				</p> */}
 
 				<div>
 					<div className="espacio3" />
@@ -86,7 +86,7 @@ export const SeccionDeportes = () => {
 				<br />
 				<br />
 				<div className="espacio3" />
-				<p className="parrafo">
+				{/* <p className="parrafo">
 					El sueco, fiel a su estilo, le dijo adiós al conjunto de la MLS con un mensaje picante. A su vez,
 					agradeció el apoyo del club que lo hizo sentir vivo de nuevo.
 					<br />
@@ -99,7 +99,7 @@ export const SeccionDeportes = () => {
 					Vine, vi y conquisté. Gracias por hacerme sentir vivo de nuevo. A los hinchas, quisieron Zlatan y
 					les di Zlatan. Son bienvenidos, la historia continúa. Ahora vuelvan a ver béisbol, escribió el
 					sueco, fiel a su estilo, en su cuenta de Twitter.
-				</p>
+				</p> */}
 
 				<div className="espacio3" />
 				<div>
@@ -131,7 +131,7 @@ export const SeccionDeportes = () => {
 				<br />
 				<br />
 				<div className="espacio3" />
-				<p className="parrafo">
+				{/* <p className="parrafo">
 					El sueco, fiel a su estilo, le dijo adiós al conjunto de la MLS con un mensaje picante. A su vez,
 					agradeció el apoyo del club que lo hizo sentir vivo de nuevo.
 					<br />
@@ -144,7 +144,7 @@ export const SeccionDeportes = () => {
 					Vine, vi y conquisté. Gracias por hacerme sentir vivo de nuevo. A los hinchas, quisieron Zlatan y
 					les di Zlatan. Son bienvenidos, la historia continúa. Ahora vuelvan a ver béisbol, escribió el
 					sueco, fiel a su estilo, en su cuenta de Twitter.
-				</p>
+				</p> */}
 				<div className="espacio2" />
 				<br />
 				<br />
