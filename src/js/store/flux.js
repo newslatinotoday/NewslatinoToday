@@ -5,7 +5,7 @@ const getState = ({ getStore, getActions, setStore }) => {
 				{
 					date: "Nov. 13, 2019",
 					image:
-						"https://vrl-eu-cdn.wetransfer.net/ivise/eyJwaXBlbGluZSI6W1sic3JnYiIse31dLFsiYXV0b19vcmllbnQiLHt9XSxbImdlb20iLHsiZ2VvbWV0cnlfc3RyaW5nIjoiMjA0OHgyMDQ4In1dLFsiZm9yY2VfanBnX291dCIseyJxdWFsaXR5Ijo4NX1dLFsic2hhcnBlbiIseyJyYWRpdXMiOjAuNzUsInNpZ21hIjowLjV9XV0sInNyY191cmwiOiJzMzovL3dldHJhbnNmZXItZXUtcHJvZC1zcGFjZXNoaXAvc25vcmptMjNtMDFwbHZzZTAyMDIwMDEzMTE2NDEyOC9zZGFmaTk1c3B2NGRvcG41ZDIwMjAwMTMxMTY0MTI4In0/3243d393c453c3e1abbc89c67341153d176fd18526b2f6e1a05cd09798c8e282",
+						"https://video-images.vice.com/test-uploads/articles/5e750fa8d601be009716c21b/lede/1584730032631-3_19_2020_THE_WAY_THINGS_SHOULD_CHANGE_FOR_GOOD_AFTER_COVID_CV.jpeg?crop=1xw:1xh;center,center&resize=1600:*",
 					type: "DEPORTES",
 					title: "Liga de zebulon",
 					image2:
