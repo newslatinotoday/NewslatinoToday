@@ -68,15 +68,15 @@ const getState = ({ getStore, getActions, setStore }) => {
 			],
 			noticias1: [
 				{
-					date: "Nov. 13, 2019",
+					date: "Marzo 22, 2020",
 
 					image:
-						"https://video-images.vice.com/articles/5de669fccd07570094c2749d/lede/1575382701745-Migrante-mesoamerica.jpeg?crop=1xw:0.84375xh;center,center&resize=2134:*",
+						"https://video-images.vice.com/test-uploads/articles/5e74f3aa14263d009d0643dc/lede/1584724928788-tired-nurse.jpeg?crop=1xw:0.5617xh;0xw,0.0757xh&resize=800:*",
 					type: "NOTICIAS",
 					
 					title:
-						"Miles de migrantes centroamericanos desaparecieron en México rumbo a Estados Unidos. Sus madres los buscan.",
-					description: ""
+						"Corona Virus",
+					
 				}
 			],
 			noticias2: [
