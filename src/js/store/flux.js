@@ -76,8 +76,7 @@ const getState = ({ getStore, getActions, setStore }) => {
 					
 					title:
 						"Corona Virus",
-					description:
-						"En el inicio de la fase pública de la investigación para el impeachment de Trump en el Congreso comparecieron dos veteranos diplomáticos: William Taylor, actualmente encargado de negocios en Ucrania, y George Kent, subsecretario adjunto de Asuntos Europeos y Euroasiáticos."
+
 					
 				}
 			],
