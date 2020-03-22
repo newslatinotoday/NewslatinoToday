@@ -5,7 +5,7 @@ const getState = ({ getStore, getActions, setStore }) => {
 				{
 					date: "Nov. 13, 2019",
 					image:
-						"https://video-images.vice.com/test-uploads/articles/5e750fa8d601be009716c21b/lede/1584730032631-3_19_2020_THE_WAY_THINGS_SHOULD_CHANGE_FOR_GOOD_AFTER_COVID_CV.jpeg?crop=1xw:1xh;center,center&resize=1600:*",
+						"https://scontent.fmia1-1.fna.fbcdn.net/v/t1.15752-9/88004731_226442865190024_7356238380486623232_n.jpg?_nc_cat=108&_nc_sid=b96e70&_nc_oc=AQkUwNglcKR3OSgQytLRNGgX6rNlWkHC3YcZieGOUhGO67FFs7tI_gMakGf3il7ONMMd7DQ6x9tIxebgluNEpftU&_nc_ht=scontent.fmia1-1.fna&oh=514b1d66721ec96161972aa8cc30f842&oe=5E9D9492",
 					type: "DEPORTES",
 					title: "Liga de zebulon",
 					image2:
