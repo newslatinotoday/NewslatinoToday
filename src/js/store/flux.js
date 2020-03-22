@@ -71,11 +71,11 @@ const getState = ({ getStore, getActions, setStore }) => {
 					date: "Marzo 22, 2020",
 
 					image:
-						"https://video-images.vice.com/test-uploads/articles/5e74f3aa14263d009d0643dc/lede/1584724928788-tired-nurse.jpeg?crop=1xw:0.5617xh;0xw,0.0757xh&resize=800:*",
+						"https://video-images.vice.com/test-uploads/articles/5e7631220a0c9000972526c4/lede/1584806526664-AP_20079744210308.jpeg?crop=1xw:0.8428xh;0xw,0xh&resize=2134:*",
 					type: "NOTICIAS",
 					
 					title:
-						"Corona Virus",
+						"Corona Virus una amenaza en el planeta",
 
 					
 				}
