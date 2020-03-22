@@ -19,20 +19,22 @@ export const SeccionDeportes = () => {
 					{store.deportes1.map((item, index) => {
 						return (
 							<Card key={index}>
-								<span className="titulo">
-									<strong>
-										{item.title}
-										<br />
-									</strong>
-								</span>
-								<div className="espacio3" />
-								<img
-									src={item.image}
-									height="613"
-									width="1223"
-									className="img-fluid height-auto max-width-100%"
-									alt="..."
-								/>
+								<Link to="/deportes-noticia-uno">
+									<span className="titulo">
+										<strong>
+											{item.title}
+											<br />
+										</strong>
+									</span>
+									<div className="espacio3" />
+									<img
+										src={item.image}
+										height="613"
+										width="1223"
+										className="img-fluid height-auto max-width-100%"
+										alt="..."
+									/>
+								</Link>
 							</Card>
 						);
 					})}
@@ -64,20 +66,22 @@ export const SeccionDeportes = () => {
 					{store.deportes2.map((item, index) => {
 						return (
 							<Card key={index}>
-								<span className="titulo">
-									<strong>
-										{item.title}
-										<br />
-									</strong>
-								</span>
-								<div className="espacio3" />
-								<img
-									src={item.image}
-									height="613"
-									width="1223"
-									className="img-fluid height-auto max-width-100%"
-									alt="..."
-								/>
+								<Link to="/deportes-noticia-dos">
+									<span className="titulo">
+										<strong>
+											{item.title}
+											<br />
+										</strong>
+									</span>
+									<div className="espacio3" />
+									<img
+										src={item.image}
+										height="613"
+										width="1223"
+										className="img-fluid height-auto max-width-100%"
+										alt="..."
+									/>
+								</Link>
 							</Card>
 						);
 					})}
@@ -110,20 +114,22 @@ export const SeccionDeportes = () => {
 					{store.deportes3.map((item, index) => {
 						return (
 							<Card key={index}>
-								<span className="titulo">
-									<strong>
-										{item.title}
-										<br />
-									</strong>
-								</span>
-								<div className="espacio3" />
-								<img
-									src={item.image}
-									height="613"
-									width="1223"
-									className="img-fluid height-auto max-width-100%"
-									alt="..."
-								/>
+								<Link to="/deportes-noticia-tres">
+									<span className="titulo">
+										<strong>
+											{item.title}
+											<br />
+										</strong>
+									</span>
+									<div className="espacio3" />
+									<img
+										src={item.image}
+										height="613"
+										width="1223"
+										className="img-fluid height-auto max-width-100%"
+										alt="..."
+									/>
+								</Link>
 							</Card>
 						);
 					})}

@@ -22,18 +22,20 @@ export const Home = () => {
 										style={{
 											height: "212px"
 										}}
-									/> */}
-									<img
-										src={item.image}
-										height="212"
-										className="img-fluid height-auto max-width-100%"
-										alt="..."
-									/>
+                                    /> */}
+									<Link to="/deportes-noticia-uno">
+										<img
+											src={item.image}
+											height="212"
+											className="img-fluid height-auto max-width-100%"
+											alt="..."
+										/>
+									</Link>
 									<CardBody>
 										<span className="lefttextspam">
-											<strong>
-												<Link to="/deportes-noticia-uno">{item.title}</Link>
-											</strong>
+											<Link to="/deportes-noticia-uno">
+												<strong>{item.title}</strong>
+											</Link>
 											<br />
 											<span className="secciones">{item.type}</span>
 										</span>
@@ -46,12 +48,14 @@ export const Home = () => {
 							return (
 								<Card key={index}>
 									{/* <div className="deportes2" style={{ height: "212px" }} /> */}
-									<img
-										src={item.image}
-										height="212"
-										className="img-fluid height-auto max-width-100%"
-										alt="..."
-									/>
+									<Link to="/deportes-noticia-dos">
+										<img
+											src={item.image}
+											height="212"
+											className="img-fluid height-auto max-width-100%"
+											alt="..."
+										/>
+									</Link>
 									<CardBody>
 										<span className="lefttextspam">
 											<Link to="/deportes-noticia-dos">
@@ -72,12 +76,14 @@ export const Home = () => {
 						{store.noticias1.map((item, index) => {
 							return (
 								<Card key={index}>
-									<img
-										src={item.image}
-										height="400"
-										className="img-fluid height-auto max-width-100%"
-										alt="..."
-									/>
+									<Link to="/noticias-uno">
+										<img
+											src={item.image}
+											height="400"
+											className="img-fluid height-auto max-width-100%"
+											alt="..."
+										/>
+									</Link>
 									<CardBody>
 										<span className="textspam">
 											<Link to="/noticias-uno">
@@ -221,12 +227,14 @@ export const Home = () => {
 							return (
 								<Card key={index}>
 									{/* <div className="comunidadFotos1" style={{ height: "300px" }} /> */}
-									<img
-										src={item.image}
-										height="300"
-										className="img-fluid height-auto max-width-100%"
-										alt="..."
-									/>
+									<Link to="/comunidad-uno">
+										<img
+											src={item.image}
+											height="300"
+											className="img-fluid height-auto max-width-100%"
+											alt="..."
+										/>
+									</Link>
 									<CardBody>
 										<Link to="/comunidad-uno">
 											<span className="secondeparttextspam">
@@ -247,12 +255,14 @@ export const Home = () => {
 							return (
 								<Card key={index}>
 									{/* <div className="comunidadFotos1" style={{ height: "300px" }} /> */}
-									<img
-										src={item.image}
-										height="300"
-										className="img-fluid height-auto max-width-100%"
-										alt="..."
-									/>
+									<Link to="/comunidad-dos">
+										<img
+											src={item.image}
+											height="300"
+											className="img-fluid height-auto max-width-100%"
+											alt="..."
+										/>
+									</Link>
 									<CardBody>
 										<Link to="/comunidad-dos">
 											<span className="secondeparttextspam">
@@ -273,12 +283,14 @@ export const Home = () => {
 							return (
 								<Card key={index}>
 									{/* <div className="comunidadFotos1" style={{ height: "300px" }} /> */}
-									<img
-										src={item.image}
-										height="300"
-										className="img-fluid height-auto max-width-100%"
-										alt="..."
-									/>
+									<Link to="/comunidad-tres">
+										<img
+											src={item.image}
+											height="300"
+											className="img-fluid height-auto max-width-100%"
+											alt="..."
+										/>
+									</Link>
 									<CardBody>
 										<Link to="/comunidad-tres">
 											<span className="secondeparttextspam">
@@ -303,13 +315,15 @@ export const Home = () => {
 						{store.deportes1.map((item, index) => {
 							return (
 								<Card key={index}>
-									{/* <div className="comunidadFotos1" style={{ height: "300px" }} /> */}
-									<img
-										src={item.image}
-										height="300"
-										className="img-fluid height-auto max-width-100%"
-										alt="..."
-									/>
+									<Link to="/deportes-noticia-uno">
+										{/* <div className="comunidadFotos1" style={{ height: "300px" }} /> */}
+										<img
+											src={item.image}
+											height="300"
+											className="img-fluid height-auto max-width-100%"
+											alt="..."
+										/>
+									</Link>
 									<CardBody>
 										<Link to="/deportes-noticia-uno">
 											<span className="secondeparttextspam">
@@ -329,13 +343,15 @@ export const Home = () => {
 						{store.deportes2.map((item, index) => {
 							return (
 								<Card key={index}>
-									{/* <div className="comunidadFotos1" style={{ height: "300px" }} /> */}
-									<img
-										src={item.image}
-										height="300"
-										className="img-fluid height-auto max-width-100%"
-										alt="..."
-									/>
+									<Link to="/deportes-noticia-dos">
+										{/* <div className="comunidadFotos1" style={{ height: "300px" }} /> */}
+										<img
+											src={item.image}
+											height="300"
+											className="img-fluid height-auto max-width-100%"
+											alt="..."
+										/>
+									</Link>
 									<CardBody>
 										<Link to="/deportes-noticia-dos">
 											<span className="secondeparttextspam">
@@ -356,12 +372,14 @@ export const Home = () => {
 							return (
 								<Card key={index}>
 									{/* <div className="comunidadFotos1" style={{ height: "300px" }} /> */}
-									<img
-										src={item.image}
-										height="300"
-										className="img-fluid height-auto max-width-100%"
-										alt="..."
-									/>
+									<Link to="/deportes-noticia-tres">
+										<img
+											src={item.image}
+											height="300"
+											className="img-fluid height-auto max-width-100%"
+											alt="..."
+										/>
+									</Link>
 									<CardBody>
 										<Link to="/deportes-noticia-tres">
 											<span className="secondeparttextspam">
@@ -387,13 +405,15 @@ export const Home = () => {
 						{store.noticias1.map((item, index) => {
 							return (
 								<Card key={index}>
-									{/* <div className="comunidadFotos1" style={{ height: "300px" }} /> */}
-									<img
-										src={item.image}
-										height="300"
-										className="img-fluid height-auto max-width-100%"
-										alt="..."
-									/>
+									<Link to="/noticias-uno">
+										{/* <div className="comunidadFotos1" style={{ height: "300px" }} /> */}
+										<img
+											src={item.image}
+											height="300"
+											className="img-fluid height-auto max-width-100%"
+											alt="..."
+										/>
+									</Link>
 									<CardBody>
 										<Link to="/noticias-uno">
 											<span className="secondeparttextspam">
@@ -414,12 +434,14 @@ export const Home = () => {
 							return (
 								<Card key={index}>
 									{/* <div className="comunidadFotos1" style={{ height: "300px" }} /> */}
-									<img
-										src={item.image}
-										height="300"
-										className="img-fluid height-auto max-width-100%"
-										alt="..."
-									/>
+									<Link to="/noticias-dos">
+										<img
+											src={item.image}
+											height="300"
+											className="img-fluid height-auto max-width-100%"
+											alt="..."
+										/>
+									</Link>
 									<CardBody>
 										<Link to="/noticias-dos">
 											<span className="secondeparttextspam">
@@ -440,12 +462,14 @@ export const Home = () => {
 							return (
 								<Card key={index}>
 									{/* <div className="comunidadFotos1" style={{ height: "300px" }} /> */}
-									<img
-										src={item.image}
-										height="300"
-										className="img-fluid height-auto max-width-100%"
-										alt="..."
-									/>
+									<Link to="/noticias-tres">
+										<img
+											src={item.image}
+											height="300"
+											className="img-fluid height-auto max-width-100%"
+											alt="..."
+										/>
+									</Link>
 									<CardBody>
 										<Link to="/noticias-tres">
 											<span className="secondeparttextspam">
