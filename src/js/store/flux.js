@@ -73,8 +73,7 @@ const getState = ({ getStore, getActions, setStore }) => {
 					image:
 						"https://video-images.vice.com/articles/5de669fccd07570094c2749d/lede/1575382701745-Migrante-mesoamerica.jpeg?crop=1xw:0.84375xh;center,center&resize=2134:*",
 					type: "NOTICIAS",
-					halfdescription:
-						"La XV Caravana de Madres Centroamericanas de Migrantes Desaparecidos reúne a familiares de personas perdidas en los últimos años...",
+					
 					title:
 						"Miles de migrantes centroamericanos desaparecieron en México rumbo a Estados Unidos. Sus madres los buscan.",
 					description: ""

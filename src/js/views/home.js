@@ -93,11 +93,11 @@ export const Home = () => {
 										<br />
 										<br />
 
-										<span className="littetextspam">
+										{/* <span className="littetextspam">
 											{item.halfdescription}
 											<br />
 											<span className="secciones">{item.type}</span>
-										</span>
+										</span> */}
 									</CardBody>
 								</Card>
 							);
