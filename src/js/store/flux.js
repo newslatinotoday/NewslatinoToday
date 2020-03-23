@@ -3,11 +3,11 @@ const getState = ({ getStore, getActions, setStore }) => {
 		store: {
 			deportes1: [
 				{
-					date: "Nov. 13, 2019",
+					date: "Marzo 23,2020",
 					image:
-						"https://scontent.fmia1-1.fna.fbcdn.net/v/t1.15752-9/88004731_226442865190024_7356238380486623232_n.jpg?_nc_cat=108&_nc_sid=b96e70&_nc_oc=AQkUwNglcKR3OSgQytLRNGgX6rNlWkHC3YcZieGOUhGO67FFs7tI_gMakGf3il7ONMMd7DQ6x9tIxebgluNEpftU&_nc_ht=scontent.fmia1-1.fna&oh=514b1d66721ec96161972aa8cc30f842&oe=5E9D9492",
+						"https://images.daznservices.com/di/library/Goal_Mexico/74/ac/balon_axdpj2dmq9ib1ty5xqstte9nf.jpg?t=349300130&quality=60&w=1600",
 					type: "DEPORTES",
-					title: "Liga de zebulon",
+					title: "Suspenden todas las Ligas Locales de Futbol",
 					image2:
 						"https://scontent.fmia1-1.fna.fbcdn.net/v/t1.15752-9/88004731_226442865190024_7356238380486623232_n.jpg?_nc_cat=108&_nc_oc=AQnvBg9nRUyDYcg22drKEc8e6IpVjV8IFJ_n47UgXG6lgTap_GhfwJECh5aMDO03qzyJggvCylY8CAEteftul8LL&_nc_ht=scontent.fmia1-1.fna&oh=b577bf6936c7f5db4e61b53ccd3b0ac7&oe=5F030C6E",
 					image3:
