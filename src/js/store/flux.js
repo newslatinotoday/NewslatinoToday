@@ -83,9 +83,9 @@ const getState = ({ getStore, getActions, setStore }) => {
 			noticias2: [
 				{
 					description:
-						"Dígale a la FCC: detengan la propagación de información errónea sobre el coronavirus"
+						"Dígale a la FCC: detengan la propagación de información errónea sobre el coronavirus",
 					date: "Marzo 23,2020",
-					image: "https://d3nw1if3cd9gaw.cloudfront.net/images/pet-fox-news-misinfo-covid-200319.jpg,
+					image: "https://d3nw1if3cd9gaw.cloudfront.net/images/pet-fox-news-misinfo-covid-200319.jpg",
 					type: "NOTICIAS",
 					title: "Coronavirus: Stop FakeNews!"
 				}
