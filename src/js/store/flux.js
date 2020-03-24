@@ -83,17 +83,17 @@ const getState = ({ getStore, getActions, setStore }) => {
 			noticias2: [
 				{
 					description:
-						"En el inicio de la fase pública de la investigación para el impeachment de Trump en el Congreso comparecieron dos veteranos diplomáticos: William Taylor, actualmente encargado de negocios en Ucrania, y George Kent, subsecretario adjunto de Asuntos Europeos y Euroasiáticos.",
-					date: "Nov. 13, 2019",
-					image: "http://www.laconexionusa.com/fotosnoticias/g/Obamacare11.jpg",
+						"Dígale a la FCC: detengan la propagación de información errónea sobre el coronavirus",
+					date: "Marzo 23,2020",
+					image: "https://d3nw1if3cd9gaw.cloudfront.net/images/pet-fox-news-misinfo-covid-200319.jpg",
 					type: "NOTICIAS",
-					title: "Inmigrantes, con o sin documentos, pueden adquirir cobertura médica."
+					title: "Coronavirus: Stop FakeNews!"
 				}
 			],
 			noticias3: [
 				{
 					description:
-						"En el inicio de la fase pública de la investigación para el impeachment de Trump en el Congreso comparecieron dos veteranos diplomáticos: William Taylor, actualmente encargado de negocios en Ucrania, y George Kent, subsecretario adjunto de Asuntos Europeos y Euroasiáticos.",
+						"ública de la investigación para el impeachment de Trump en el Congreso comparecieron dos veteranos diplomáticos: William Taylor, actualmente encargado de negocios en Ucrania, y George Kent, subsecretario adjunto de Asuntos Europeos y Euroasiáticos.",
 					date: "Nov. 13, 2019",
 					image: "http://www.laconexionusa.com/fotosnoticias/g/16012659w.jpg",
 					type: "NOTICIAS",
