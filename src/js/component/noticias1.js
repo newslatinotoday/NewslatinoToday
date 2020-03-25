@@ -47,9 +47,8 @@ export const NoticiasOne = () => {
 		lkjsadfljksdafl
 							{'"'}.<br />
 							<br />
-							Cuando hay un familiar migrante desaparecido la distancia hace difícil siquiera dar
-						 VER MAS{" "}
-							<a href="https://www.vice.com/en_us/article/jge4ep/new-york-plans-to-convert-javits-center-into-a-field-hospital-as-coronavirus-cases-jump-by-thousands-overnight" />
+							
+							
 							<br />
 							<br />
 						</p>
