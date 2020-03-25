@@ -91,18 +91,13 @@ export const SeccionNoticias = () => {
 				<br />
 				<div className="espacio3" />
 				<p className="parrafo">
-					El sueco, fiel a su estilo, le dijo adiós al conjunto de la MLS con un mensaje picante. A su vez,
-					agradeció el apoyo del club que lo hizo sentir vivo de nuevo.
+					
 					<br />
 					<br />
-					Zlatan Ibrahimovic anunció este jueves su despedida de Los Ángeles Galaxy, el equipo de la Major
-					League Soccer norteamericana en el que jugó dos temporadas, con un mensaje picante para los hinchas,
-					a los que les dijo que.
+					
 					<br />
 					<br />
-					Vine, vi y conquisté. Gracias por hacerme sentir vivo de nuevo. A los hinchas, quisieron Zlatan y
-					les di Zlatan. Son bienvenidos, la historia continúa. Ahora vuelvan a ver béisbol, escribió el
-					sueco, fiel a su estilo, en su cuenta de Twitter.
+					
 				</p>
 
 				<div className="espacio3" />
@@ -138,18 +133,13 @@ export const SeccionNoticias = () => {
 				<br />
 				<div className="espacio3" />
 				<p className="parrafo">
-					El sueco, fiel a su estilo, le dijo adiós al conjunto de la MLS con un mensaje picante. A su vez,
-					agradeció el apoyo del club que lo hizo sentir vivo de nuevo.
+					
 					<br />
 					<br />
-					Zlatan Ibrahimovic anunció este jueves su despedida de Los Ángeles Galaxy, el equipo de la Major
-					League Soccer norteamericana en el que jugó dos temporadas, con un mensaje picante para los hinchas,
-					a los que les dijo que.
+					
 					<br />
 					<br />
-					Vine, vi y conquisté. Gracias por hacerme sentir vivo de nuevo. A los hinchas, quisieron Zlatan y
-					les di Zlatan. Son bienvenidos, la historia continúa. Ahora vuelvan a ver béisbol, escribió el
-					sueco, fiel a su estilo, en su cuenta de Twitter.
+					
 				</p>
 				<div className="espacio2" />
 				<br />
