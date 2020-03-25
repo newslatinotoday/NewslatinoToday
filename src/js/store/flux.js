@@ -104,11 +104,11 @@ const getState = ({ getStore, getActions, setStore }) => {
 				{
 					description:
 						"En el inicio de la fase pública de la investigación para el impeachment de Trump en el Congreso comparecieron dos veteranos diplomáticos: William Taylor, actualmente encargado de negocios en Ucrania, y George Kent, subsecretario adjunto de Asuntos Europeos y Euroasiáticos.",
-					date: "Nov. 13, 2019",
+					date: "Marzo 23,2020",
 					image: "http://www.laconexionusa.com/fotosnoticias/g/esuclea.jpg",
 					type: "COMUNIDAD",
 					title:
-						"Candidatos para el superintendente escolar de carolina del norte enfoque en la educación de la primera infancia."
+						"El Gobernador Roy Cooper ha cerrado todas las escuelas hasta el 15 de Mayo"
 				}
 			],
 			comunidad2: [
