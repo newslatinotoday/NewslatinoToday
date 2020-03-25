@@ -47,9 +47,9 @@ const getState = ({ getStore, getActions, setStore }) => {
 				{
 					description:
 						"En el inicio de la fase pública de la investigación para el impeachment de Trump en el Congreso comparecieron dos veteranos diplomáticos: William Taylor, actualmente encargado de negocios en Ucrania, y George Kent, subsecretario adjunto de Asuntos Europeos y Euroasiáticos.",
-					date: "Nov. 13, 2019",
+					date: "Marzo 2,2020",
 					type: "DEPORTES",
-					title: " Liga Hispana de Monte Olivo",
+					title: " Ligas Locales de Futbol,en el area del triangulo y alrededores",
 					image:
 						"https://scontent.fmia1-1.fna.fbcdn.net/v/t1.15752-9/87515762_535318780430064_722366095633154048_n.jpg?_nc_cat=107&_nc_oc=AQl5hBrPWaFKDFSai1DirQFB6M_9lkXmeSv00ljxYMsoDhV8ZBVBmIhmZpnrOH5nc4dromDJ6OHGosBUP-rAat95&_nc_ht=scontent.fmia1-1.fna&oh=9b5a4567e708d99edc388d50a14c1159&oe=5F037D26",
 					image2:
