@@ -42,10 +42,9 @@ export const NoticiasOne = () => {
 						<br />
 						<div className="espacio3" />
 						<p className="parrafo">
-							corona virus llega a New York y es una nueva amenaza khjasdfkjhasdkhjaskhjpihaipuhpufasdkjdsaf
-		sdalkjdsakjdsaflksadfsdaf
-		lkjsadfljksdafl
-							{'"'}.<br />
+		Corona Virus, pone de manifiesto la fragilidad humana
+	
+							<br />
 							<br />
 							
 							
