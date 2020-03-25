@@ -125,10 +125,10 @@ const getState = ({ getStore, getActions, setStore }) => {
 				{
 					description:
 						"En el inicio de la fase pública de la investigación para el impeachment de Trump en el Congreso comparecieron dos veteranos diplomáticos: William Taylor, actualmente encargado de negocios en Ucrania, y George Kent, subsecretario adjunto de Asuntos Europeos y Euroasiáticos.",
-					date: "Marzo 24, 2020",
-					image: "https://es.theepochtimes.com/assets/uploads/2020/03/Sen.-Richard-Burr-700x420.jpg",
+					date: "Marzo 25, 2020",
+					image: "https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/90199392_3201350433230556_1961711464746057728_n.jpg?_nc_cat=100&_nc_sid=2d5d41&_nc_ohc=-TLhVu6wuSQAX9RTt0d&_nc_ht=scontent-iad3-1.xx&oh=c7a429556a9a27d8d66a1ccad8758b7a&oe=5EA07E33",
 					type: "COMUNIDAD",
-					title: "Richard Burr, quien no ha renunciado, quiere que el Comité de Ética del Senado investigue su venta de acciones Shady-Ass"
+					title: "recursos y actividades para que los niños y las familias practiquen su español en casa. "
  
 
 			
