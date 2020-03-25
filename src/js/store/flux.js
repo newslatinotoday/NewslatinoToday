@@ -68,15 +68,15 @@ const getState = ({ getStore, getActions, setStore }) => {
 			],
 			noticias1: [
 				{
-					date: "Nov. 13, 2019",
+					date: "Marzo 25,2020",
 
 					image:
-						"https://video-images.vice.com/articles/5de669fccd07570094c2749d/lede/1575382701745-Migrante-mesoamerica.jpeg?crop=1xw:0.84375xh;center,center&resize=2134:*",
+						"https://www.momsrising.org/sites/default/files/styles/large/public/483B2A1E-72B2-426F-85E7-EA1584180067.png?itok=X8z2RuGc",
 					type: "NOTICIAS",
 					halfdescription:
 						"La XV Caravana de Madres Centroamericanas de Migrantes Desaparecidos reúne a familiares de personas perdidas en los últimos años...",
 					title:
-						"Miles de migrantes centroamericanos desaparecieron en México rumbo a Estados Unidos. Sus madres los buscan.",
+						"Recursos en Carolina del Norte y formas de ayudar durante COVID-19",
 					description: ""
 				}
 			],
