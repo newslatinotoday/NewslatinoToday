@@ -68,14 +68,14 @@ const getState = ({ getStore, getActions, setStore }) => {
 			],
 			noticias1: [
 				{
-					date: "Marzo 22, 2020",
+					date: "Marzo 26,2020",
 
 					image:
-						"https://video-images.vice.com/test-uploads/articles/5e7631220a0c9000972526c4/lede/1584806526664-AP_20079744210308.jpeg?crop=1xw:0.8428xh;0xw,0xh&resize=2134:*",
+						"https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/90941247_544128246238339_4720608970329292800_n.jpg?_nc_cat=103&_nc_sid=b386c4&_nc_ohc=8ri3-iQuas8AX-pH4Je&_nc_ht=scontent-iad3-1.xx&oh=b30dd2ae8b711151c228ff4892e3ca1b&oe=5EA27169",
 					type: "NOTICIAS",
 					
 					title:
-						"Corona Virus una amenaza en el planeta",
+						"Ser Bilingue es un super poder!",
 
 					
 				}
