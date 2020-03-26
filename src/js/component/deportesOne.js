@@ -17,7 +17,7 @@ export const DeportesOne = () => {
 							<span className="titulo">
 								<strong>
 									{item.title}
-									{/* Ibrahimovic se despidió de Los Ángeles Galaxy y los mandó {"a ver béisbol"} */}
+									{} */}
 									<br />
 								</strong>
 							</span>
@@ -197,6 +197,9 @@ export const DeportesOne = () => {
 						<br />
 						<div className="espacio3" />
 						<p className="parrafo">
+							Para ejemplificar, la concejal de la ciudad de Durham, Javiera Caballero explicó a Enlace Latino NC que si un grupo de jóvenes está jugando al fútbol (algo que no se debe hacer por ahora) le será dada una advertencia verbal, si regresan  probablemente recibirán otra advertencia, pero si hay una tercera vez entonces pueden venir las multas y amonestaciones. “Esto será si es algo repetitivo” dijo. “Es importante seguir las reglas para el beneficio de todos”.
+
+En general, la violación de una orden de emergencia es un delito menor de clase 2, dijo al News & Observer el abogado de Durham, Daniel Meier.
 							<br />
 							<br />
 
