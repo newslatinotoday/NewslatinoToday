@@ -35,7 +35,7 @@ export const ComunidadOne = () => {
 						<br />
 						<div className="espacio3" />
 						<p className="parrafo">
-							El gobernador Roy Cooper ha cerrado todas las escuelas hasta el {15} de mayo debido a la pandemia del {COVID-19}. En los próximos días, les estaremos informando sobre los planes para el aprendizaje remoto y detalles adicionales relacionados con las escuelas.
+							El gobernador Roy Cooper ha cerrado todas las escuelas hasta el {"15"} de mayo debido a la pandemia del {"COVID-19"}. En los próximos días, les estaremos informando sobre los planes para el aprendizaje remoto y detalles adicionales relacionados con las escuelas.
 							<br />
 							<br />
 							
