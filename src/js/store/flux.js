@@ -7,7 +7,7 @@ const getState = ({ getStore, getActions, setStore }) => {
 					image:
 						"https://images.daznservices.com/di/library/Goal_Mexico/74/ac/balon_axdpj2dmq9ib1ty5xqstte9nf.jpg?t=349300130&quality=60&w=1600",
 					type: "DEPORTES",
-					title: "Suspenden todas las Ligas Locales de Futbol",
+					title: "Por el COVID-19,suspenden todas las Ligas Locales de futbol en Carolina del Norte",
 					image2:
 						"https://scontent.fmia1-1.fna.fbcdn.net/v/t1.15752-9/88004731_226442865190024_7356238380486623232_n.jpg?_nc_cat=108&_nc_oc=AQnvBg9nRUyDYcg22drKEc8e6IpVjV8IFJ_n47UgXG6lgTap_GhfwJECh5aMDO03qzyJggvCylY8CAEteftul8LL&_nc_ht=scontent.fmia1-1.fna&oh=b577bf6936c7f5db4e61b53ccd3b0ac7&oe=5F030C6E",
 					image3:
