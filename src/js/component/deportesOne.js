@@ -17,7 +17,7 @@ export const DeportesOne = () => {
 							<span className="titulo">
 								<strong>
 									{item.title}
-									{} */}
+									{/* Ibrahimovic se despidió de Los Ángeles Galaxy y los mandó {"a ver béisbol"} */}
 									<br />
 								</strong>
 							</span>
