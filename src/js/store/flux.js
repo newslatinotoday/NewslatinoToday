@@ -73,17 +73,13 @@ const getState = ({ getStore, getActions, setStore }) => {
 					image:
 						"https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/90941247_544128246238339_4720608970329292800_n.jpg?_nc_cat=103&_nc_sid=b386c4&_nc_ohc=8ri3-iQuas8AX-pH4Je&_nc_ht=scontent-iad3-1.xx&oh=b30dd2ae8b711151c228ff4892e3ca1b&oe=5EA27169",
 					type: "NOTICIAS",
-					
-					title:
-						"Ser Bilingue es un super poder!",
 
-					
+					title: "Ser Bilingue es un super poder!"
 				}
 			],
 			noticias2: [
 				{
-					description:
-						"Dígale a la FCC: detengan la propagación de información errónea sobre el coronavirus",
+					description: "Dígale a la FCC: detengan la propagación de información errónea sobre el coronavirus",
 					date: "Marzo 23,2020",
 					image: "https://d3nw1if3cd9gaw.cloudfront.net/images/pet-fox-news-misinfo-covid-200319.jpg",
 					type: "NOTICIAS",
@@ -95,20 +91,21 @@ const getState = ({ getStore, getActions, setStore }) => {
 					description:
 						"ública de la investigación para el impeachment de Trump en el Congreso comparecieron dos veteranos diplomáticos: William Taylor, actualmente encargado de negocios en Ucrania, y George Kent, subsecretario adjunto de Asuntos Europeos y Euroasiáticos.",
 					date: "Nov. 13, 2019",
-					image: "https://indyweek.com/downloads/79247/download/MCA_9372.jpg?cb=9ade37b24766e49ba4f31664cbdfef8e&w=1024&h=",
+					image:
+						"https://indyweek.com/downloads/79247/download/MCA_9372.jpg?cb=9ade37b24766e49ba4f31664cbdfef8e&w=1024&h=",
 					type: "NOTICIAS",
 					title: "La orden de aislamiento preventivo llega al Condado de Wake,NC"
 				}
 			],
 			comunidad1: [
 				{
-					description:
-						"",
+					description: "",
 					date: "Marzo 23, 2020",
-					image: "https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/83881628_2707971932590487_4513891898020069376_n.jpg?_nc_cat=111&_nc_sid=dd9801&_nc_ohc=hY3BslEM60gAX-VHJF1&_nc_ht=scontent-iad3-1.xx&oh=8c0cd53b49de79aba934dcc1215ff9b7&oe=5E9D5A37",
+					image:
+						"https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/83881628_2707971932590487_4513891898020069376_n.jpg?_nc_cat=111&_nc_sid=dd9801&_nc_ohc=hY3BslEM60gAX-VHJF1&_nc_ht=scontent-iad3-1.xx&oh=8c0cd53b49de79aba934dcc1215ff9b7&oe=5E9D5A37",
 					type: "COMUNIDAD",
 					title:
-						"El gobernador Roy Cooper ha cerrado todas las escuelas hasta el 15 de mayo debido a la pandemia del COVID-19. En los próximos días, les estaremos informando sobre los planes para el aprendizaje remoto y detalles adicionales relacionados con las escuelas." 
+						"El gobernador Roy Cooper ha cerrado todas las escuelas hasta el 15 de mayo debido a la pandemia del COVID-19. En los próximos días, les estaremos informando sobre los planes para el aprendizaje remoto y detalles adicionales relacionados con las escuelas."
 				}
 			],
 			comunidad2: [

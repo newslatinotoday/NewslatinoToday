@@ -43,13 +43,11 @@ export const SeccionComunidad = () => {
 				<br />
 				<div className="espacio3" />
 				<p className="parrafo">
-					
 					<br />
 					<br />
-					
+
 					<br />
 					<br />
-					
 				</p>
 
 				<div>
@@ -86,13 +84,11 @@ export const SeccionComunidad = () => {
 				<br />
 				<div className="espacio3" />
 				<p className="parrafo">
-					
 					<br />
 					<br />
-					
+
 					<br />
 					<br />
-					
 				</p>
 
 				<div className="espacio3" />
@@ -128,13 +124,11 @@ export const SeccionComunidad = () => {
 				<br />
 				<div className="espacio3" />
 				<p className="parrafo">
-					
 					<br />
 					<br />
-					
+
 					<br />
 					<br />
-					
 				</p>
 				<div className="espacio2" />
 				<br />

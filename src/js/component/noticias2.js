@@ -42,15 +42,17 @@ export const NoticiasTwo = () => {
 						<br />
 						<div className="espacio3" />
 						<p className="parrafo">
-							It is unlawful for broadcasters to intentionally distort the news in a way that causes substantial public harm. But that’s what is happening right now with coverage of coronavirus in the United States. Broadcasters like Sean Hannity and Rush Limbaugh have used the public airwaves to spread false information about the COVID-19 crisis. The public needs the FCC to hold TV and radio stations accountable for broadcasting lies.
-
-The FCC has a responsibility to stop the spread of misinformation about coronavirus. We need the agency to act before even more lives are lost.
+							It is unlawful for broadcasters to intentionally distort the news in a way that causes
+							substantial public harm. But that’s what is happening right now with coverage of coronavirus
+							in the United States. Broadcasters like Sean Hannity and Rush Limbaugh have used the public
+							airwaves to spread false information about the COVID-19 crisis. The public needs the FCC to
+							hold TV and radio stations accountable for broadcasting lies. The FCC has a responsibility
+							to stop the spread of misinformation about coronavirus. We need the agency to act before
+							even more lives are lost.
 							<br />
 							<br />
-							
 							<br />
 							<br />
-							
 						</p>
 						<div className="espacio2" />
 						<Link to="/">

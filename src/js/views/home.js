@@ -96,7 +96,7 @@ export const Home = () => {
 										{/* <span className="littetextspam">
 											{item.halfdescription}
 											<br /> */}
-											<span className="secciones">{item.type}</span>
+										<span className="secciones">{item.type}</span>
 										{/* </span> */}
 									</CardBody>
 								</Card>
