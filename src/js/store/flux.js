@@ -7,7 +7,7 @@ const getState = ({ getStore, getActions, setStore }) => {
 					image:
 						"https://images.daznservices.com/di/library/Goal_Mexico/74/ac/balon_axdpj2dmq9ib1ty5xqstte9nf.jpg?t=349300130&quality=60&w=1600",
 					type: "DEPORTES",
-					title: "Por el COVID-19,suspenden todas las Ligas Locales de futbol en Carolina del Norte",
+					title: "Suspenden todas las Ligas Locales de Futbol",
 					image2:
 						"https://scontent.fmia1-1.fna.fbcdn.net/v/t1.15752-9/88004731_226442865190024_7356238380486623232_n.jpg?_nc_cat=108&_nc_oc=AQnvBg9nRUyDYcg22drKEc8e6IpVjV8IFJ_n47UgXG6lgTap_GhfwJECh5aMDO03qzyJggvCylY8CAEteftul8LL&_nc_ht=scontent.fmia1-1.fna&oh=b577bf6936c7f5db4e61b53ccd3b0ac7&oe=5F030C6E",
 					image3:
@@ -95,9 +95,9 @@ const getState = ({ getStore, getActions, setStore }) => {
 					description:
 						"ública de la investigación para el impeachment de Trump en el Congreso comparecieron dos veteranos diplomáticos: William Taylor, actualmente encargado de negocios en Ucrania, y George Kent, subsecretario adjunto de Asuntos Europeos y Euroasiáticos.",
 					date: "Nov. 13, 2019",
-					image: "http://www.laconexionusa.com/fotosnoticias/g/16012659w.jpg",
+					image: "https://indyweek.com/downloads/79247/download/MCA_9372.jpg?cb=9ade37b24766e49ba4f31664cbdfef8e&w=1024&h=",
 					type: "NOTICIAS",
-					title: "Corte cree que el recuento de las presidenciales en uruguay irá hasta el fin de semana."
+					title: "La orden de aislamiento preventivo llega al Condado de Wake,NC"
 				}
 			],
 			comunidad1: [
@@ -108,7 +108,7 @@ const getState = ({ getStore, getActions, setStore }) => {
 					image: "https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/83881628_2707971932590487_4513891898020069376_n.jpg?_nc_cat=111&_nc_sid=dd9801&_nc_ohc=hY3BslEM60gAX-VHJF1&_nc_ht=scontent-iad3-1.xx&oh=8c0cd53b49de79aba934dcc1215ff9b7&oe=5E9D5A37",
 					type: "COMUNIDAD",
 					title:
-						"Todas las escuelas cerradas hasta el 15 de mayo " 
+						"El gobernador Roy Cooper ha cerrado todas las escuelas hasta el 15 de mayo debido a la pandemia del COVID-19. En los próximos días, les estaremos informando sobre los planes para el aprendizaje remoto y detalles adicionales relacionados con las escuelas." 
 				}
 			],
 			comunidad2: [
