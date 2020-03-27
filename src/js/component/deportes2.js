@@ -42,10 +42,10 @@ export const DeportesTwo = () => {
 						<br />
 						<div className="espacio3" />
 						<p className="parrafo">
-		Un cordial saludopara los Señores DT de equipos , Jugadores y Familias ; se les informa que este fin de semana quedan suspendidas las jornadas de sábado ( Veteranos ) y domingo ( libre ) , la razón pues todos ya lo sabemos y por orden de las autoridades locales, el fútbol se reanudará, hasta nuevo aviso, lo siento por el inconveniente .
+		Un cordial saludopara los Señores DT de equipos , Jugadores y Familias {";"} se les informa que este fin de semana quedan suspendidas las jornadas de sábado {"( Veteranos )"} y domingo {"( libre )"} , la razón pues todos ya lo sabemos y por orden de las autoridades locales, el fútbol se reanudará, hasta nuevo aviso, lo siento por el inconveniente .
 				
 							<br />
-		Tranquilos que "la pelota no se mancha".
+		Tranquilos que{" "la pelota no se mancha""}.
 							<br />
 							{/* */}
 							<br />
