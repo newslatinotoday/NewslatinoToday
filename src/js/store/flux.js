@@ -113,7 +113,8 @@ const getState = ({ getStore, getActions, setStore }) => {
 					description:
 						"En el inicio de la fase pública de la investigación para el impeachment de Trump en el Congreso comparecieron dos veteranos diplomáticos: William Taylor, actualmente encargado de negocios en Ucrania, y George Kent, subsecretario adjunto de Asuntos Europeos y Euroasiáticos.",
 					date: "Marzo 7, 2020",
-					image: "https://scontent-atl3-1.xx.fbcdn.net/v/t1.15752-9/p1080x2048/92306564_839142039926134_179096867773087744_n.jpg?_nc_cat=103&_nc_sid=b96e70&_nc_ohc=u07YEchn3hQAX_0-I3o&_nc_ht=scontent-atl3-1.xx&_nc_tp=6&oh=a403580314758589adf37036a40e3344&oe=5EB242E3",
+					image:
+						"https://scontent-atl3-1.xx.fbcdn.net/v/t1.15752-9/p1080x2048/92306564_839142039926134_179096867773087744_n.jpg?_nc_cat=103&_nc_sid=b96e70&_nc_ohc=u07YEchn3hQAX_0-I3o&_nc_ht=scontent-atl3-1.xx&_nc_tp=6&oh=a403580314758589adf37036a40e3344&oe=5EB242E3",
 					type: "COMUNIDAD",
 					title: "Comunidad Vida Nueva: Mi prójimo es cualquiera que tenga necesidad"
 				}
@@ -123,7 +124,8 @@ const getState = ({ getStore, getActions, setStore }) => {
 					description:
 						"En el inicio de la fase pública de la investigación para el impeachment de Trump en el Congreso comparecieron dos veteranos diplomáticos: William Taylor, actualmente encargado de negocios en Ucrania, y George Kent, subsecretario adjunto de Asuntos Europeos y Euroasiáticos.",
 					date: "Marzo 5, 2020",
-					image: "https://scontent-atl3-1.xx.fbcdn.net/v/t1.0-9/p720x720/87230311_1907338112732289_9132463904369147904_o.jpg?_nc_cat=101&_nc_sid=110474&_nc_ohc=bIDzacdEPMsAX8EYizj&_nc_ht=scontent-atl3-1.xx&_nc_tp=6&oh=a8759a1bbec594f0182db9ba0e9b170c&oe=5EB568D6",
+					image:
+						"https://scontent-atl3-1.xx.fbcdn.net/v/t1.0-9/p720x720/87230311_1907338112732289_9132463904369147904_o.jpg?_nc_cat=101&_nc_sid=110474&_nc_ohc=bIDzacdEPMsAX8EYizj&_nc_ht=scontent-atl3-1.xx&_nc_tp=6&oh=a8759a1bbec594f0182db9ba0e9b170c&oe=5EB568D6",
 					type: "COMUNIDAD",
 					title: "Campaña “Todos somos Familia”."
 				}

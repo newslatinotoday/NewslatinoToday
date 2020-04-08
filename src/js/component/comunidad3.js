@@ -42,19 +42,22 @@ export const ComunidadThree = () => {
 						<br />
 						<div className="espacio3" />
 						<p className="parrafo">
-							La Asociación Dominicana de Raleigh (AKA:ADORA) inició la campaña “Todo somos Familia” que busca dar soporte a la comunidad inmigrante indocumentada que vive en zonas rurales, donde los recursos, a diferencia de las áreas urbanas, son más escasos.
-
-
+							La Asociación Dominicana de Raleigh (AKA:ADORA) inició la campaña “Todo somos Familia” que
+							busca dar soporte a la comunidad inmigrante indocumentada que vive en zonas rurales, donde
+							los recursos, a diferencia de las áreas urbanas, son más escasos.
 							<br />
-		Julián Abreu, Presidente de ADORA, nos dice que la idea es que quienes reciban la ayuda federal aprobada por el gobierno de Donald Trump “adopten” una familia para darles la posibilidad que obtengan productos de primera necesidad.
-
-Quienes colaboren pueden hacerlo comprando una tarjeta de regalo de un supermercado o dejar pagado un monto determinado en una tienda de comestibles.
+							Julián Abreu, Presidente de ADORA, nos dice que la idea es que quienes reciban la ayuda
+							federal aprobada por el gobierno de Donald Trump “adopten” una familia para darles la
+							posibilidad que obtengan productos de primera necesidad. Quienes colaboren pueden hacerlo
+							comprando una tarjeta de regalo de un supermercado o dejar pagado un monto determinado en
+							una tienda de comestibles.
 							<br />
-							“Este es un problema que nos está afectando todos y es injusto que una parte reciba la ayuda del gobierno. Por qué no desprendernos de un poco para darle a quienes lo necesitan”.
+							“Este es un problema que nos está afectando todos y es injusto que una parte reciba la ayuda
+							del gobierno. Por qué no desprendernos de un poco para darle a quienes lo necesitan”.
 							<br />
-								Interesados en ser parte de la campaña “Todos somos Familia” de ADORA por favor llamen al teléfono (919) 539-3537.
+							Interesados en ser parte de la campaña “Todos somos Familia” de ADORA por favor llamen al
+							teléfono (919) 539-3537.
 							<br />
-							
 						</p>
 						<div className="espacio2" />
 						<Link to="/">
