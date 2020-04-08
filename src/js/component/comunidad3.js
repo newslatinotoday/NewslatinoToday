@@ -42,18 +42,19 @@ export const ComunidadThree = () => {
 						<br />
 						<div className="espacio3" />
 						<p className="parrafo">
-							El sueco, fiel a su estilo, le dijo adiós al conjunto de la MLS con un mensaje picante. A su
-							vez, agradeció el apoyo del club que lo hizo sentir vivo de nuevo.
+							La Asociación Dominicana de Raleigh (AKA:ADORA) inició la campaña “Todo somos Familia” que busca dar soporte a la comunidad inmigrante indocumentada que vive en zonas rurales, donde los recursos, a diferencia de las áreas urbanas, son más escasos.
+
+
 							<br />
+		Julián Abreu, Presidente de ADORA, nos dice que la idea es que quienes reciban la ayuda federal aprobada por el gobierno de Donald Trump “adopten” una familia para darles la posibilidad que obtengan productos de primera necesidad.
+
+Quienes colaboren pueden hacerlo comprando una tarjeta de regalo de un supermercado o dejar pagado un monto determinado en una tienda de comestibles.
 							<br />
-							Zlatan Ibrahimovic anunció este jueves su despedida de Los Ángeles Galaxy, el equipo de la
-							Major League Soccer norteamericana en el que jugó dos temporadas, con un mensaje picante
-							para los hinchas, a los que les dijo que.
+							“Este es un problema que nos está afectando todos y es injusto que una parte reciba la ayuda del gobierno. Por qué no desprendernos de un poco para darle a quienes lo necesitan”.
 							<br />
+								Interesados en ser parte de la campaña “Todos somos Familia” de ADORA por favor llamen al teléfono (919) 539-3537.
 							<br />
-							Vine, vi y conquisté. Gracias por hacerme sentir vivo de nuevo. A los hinchas, quisieron
-							Zlatan y les di Zlatan. Son bienvenidos, la historia continúa. Ahora vuelvan a ver béisbol,
-							escribió el sueco, fiel a su estilo, en su cuenta de Twitter.
+							
 						</p>
 						<div className="espacio2" />
 						<Link to="/">
