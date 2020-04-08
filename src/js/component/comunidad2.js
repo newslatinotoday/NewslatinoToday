@@ -42,15 +42,15 @@ export const ComunidadTwo = () => {
 						<br />
 						<div className="espacio3" />
 						<p className="parrafo">
-							El ministerio cristiano Comunidad Vida Nueva bajo el lema "Mi Prójimo es cualquier persona que tenga necesidad".
+							El ministerio cristiano Comunidad Vida Nueva bajo el lema {'"Mi Prójimo es cualquier persona que tenga necesidad"'}.
 							<br />
-		El grupo hispano de Comunidad Vida Nueva, es parte integral de la Iglesia "Hope Cafe" (Hope Fellowship Church) con sede en la 201 Tryon Rd. en Raleigh, NC 27603.
+		El grupo hispano de Comunidad Vida Nueva, es parte integral de la Iglesia {'"Hope Cafe"'} {'(Hope Fellowship Church)'} con sede en la 201 Tryon Rd. en Raleigh, NC 27603.
 							<br />
-		"Estamos ayudando con comida y articulos para el hogar a las familias afectadas directa o indirectamente por el COVID-19. Muchos de ellos son personas indocumentadas y no califican para los recursos y/o ayuda federal." Dice el Pastor Nestor Gomez
+		{'"Estamos ayudando con comida y articulos para el hogar a las familias afectadas directa o indirectamente por el COVID-19. Muchos de ellos son personas indocumentadas y no califican para los recursos y/o ayuda federal."'}Dice el Pastor Nestor Gomez
 		
 							
 							<br />
-			Agradecemos a la 'Elder' Hanna Broome del Ministerio A.M.E. Zion Church por su colaboracion y servicio de amor al prójimo.(*en la foto principal junto a la Co-Directora de Comunidad Vida Nueva Sandra Amado Gomez.)
+			Agradecemos a la {"'Elder'"} Hanna Broome del Ministerio A.M.E. Zion Church por su colaboracion y servicio de amor al prójimo.{'(*en la foto principal junto a la Co-Directora de Comunidad Vida Nueva Sandra Amado Gomez.)'}
 							<br />
 				Prójimo es cualquiera que está triste y yo puedo llevarle un poco de alegría.
 Prójimo es cualquiera que está solo y yo puedo hacerle compañía.
@@ -61,8 +61,8 @@ Prójimo es cualquier extranjero que se siente solo y yo puedo acompañarle.
 Prójimo es cualquier desconocido y a quien yo puedo saludarle cordialmente.
 Prójimo es cualquiera que vive lejos y a quien yo puedo acercarme.
 La idea de prójimo trasciende lo geográfico, lo cultural, lo social, lo religioso.
-Prójimo es “cualquiera” al que yo puedo tender una mano.
-Esta es parte esencial en la Vision de 'Comunidad Vida Nueva'segun su pastor.
+Prójimo es {'“cualquiera”'} al que yo puedo tender una mano.
+Esta es parte esencial en la Vision de {"'Comunidad Vida Nueva'"}segun su pastor.
 
 							
 						</p>
