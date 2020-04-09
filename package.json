@@ -1,6 +1,4 @@
 {
-
-    
 	"name": "react-hello-webapp",
 	"engines": {
 		"node": "10.x"
@@ -86,5 +84,4 @@
 		"react-sticky": "^6.0.3",
 		"reactstrap": "^8.1.1"
 	}
-    
 }
