@@ -202,6 +202,7 @@ export const ComunidadTwo = () => {
 							}{" "}
 							{"(Hope Fellowship Church)"} con sede en la 201 Tryon Rd. en Raleigh, NC 27603.
 							<br />
+							<br />
 							{
 								'"Estamos ayudando con comida y articulos para el hogar a las familias afectadas directa o indirectamente por el COVID-19. Muchos de ellos son personas indocumentadas y no califican para los recursos y/o ayuda federal."'
 							}
@@ -212,6 +213,7 @@ export const ComunidadTwo = () => {
 							{
 								"(*en la foto principal junto a la Co-Directora de Comunidad Vida Nueva Sandra Amado Gomez.)"
 							}
+							<br />
 							<br />
 							Prójimo es cualquiera que está triste y yo puedo llevarle un poco de alegría. Prójimo es
 							cualquiera que está solo y yo puedo hacerle compañía. Prójimo es cualquiera que tiene hambre
