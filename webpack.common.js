@@ -49,7 +49,7 @@ module.exports = {
       Dropdown: "exports-loader?Dropdown!bootstrap/js/dist/dropdown"
     }),
     new HtmlWebpackPlugin({
-        favicon:'',
+        favicon:'newslatinogrande.ico',
         template: 'template.html'
     })
   ]
