@@ -5,8 +5,10 @@ export const Footer = () => (
 		<div className="espacio3" />
 
 		<p className="footer">
-			© 2020 NewsLatinoToday - Correo Electronico: newslatinotodaync@gmail.com - Telefono: (919)521-2152 -
-			Locacion De Oficina: Raleigh, NC
+			© 2020 NewsLatinoToday - Correo {"electrónico"}: newslatinotodaync@gmail.com -{“Teléfono”}: (919)521-2152 -
+			Locacion De Oficina: Raleigh, North Carolina- Nestor A.{“Gómez”} Executive Director/ Editor - Sandra Amado 
+Cofounder /assistant editor - Marcos {“Gómez”}
+Software Developer/Photographer/Video/Community manager
 		</p>
 	</footer>
 );
