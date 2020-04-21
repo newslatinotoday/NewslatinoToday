@@ -6,7 +6,7 @@ export const Footer = () => (
 
 		<p className="footer">
 			© 2020 NewsLatinoToday - Correo {"electrónico"}: newslatinotodaync@gmail.com -{"Teléfono"}: (919)521-2152 -
-			Locacion De Oficina: Raleigh, North Carolina
+			{"Locación"} De Oficina: Raleigh, North Carolina
 		</p>
 	</footer>
 );
