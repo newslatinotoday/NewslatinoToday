@@ -100,12 +100,12 @@ const getState = ({ getStore, getActions, setStore }) => {
 			comunidad1: [
 				{
 					description: "",
-					date: "Marzo 23, 2020",
+					date: "Abril 28, 2020",
 					image:
-						"https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/83881628_2707971932590487_4513891898020069376_n.jpg?_nc_cat=111&_nc_sid=dd9801&_nc_ohc=hY3BslEM60gAX-VHJF1&_nc_ht=scontent-iad3-1.xx&oh=8c0cd53b49de79aba934dcc1215ff9b7&oe=5E9D5A37",
+						"https://pbs.twimg.com/media/EWs3MSWX0AELSQg?format=jpg&name=large",
 					type: "COMUNIDAD",
 					title:
-						"El gobernador Roy Cooper ha cerrado todas las escuelas hasta el 15 de mayo debido a la pandemia del COVID-19."
+						"Trabajadores de la salud se paran frente a los ReOpenNC "
 				}
 			],
 			comunidad2: [
