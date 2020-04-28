@@ -35,9 +35,9 @@ export const ComunidadOne = () => {
 						<br />
 						<div className="espacio3" />
 						<p className="parrafo">
-							El gobernador Roy Cooper ha cerrado todas las escuelas hasta el {"15"} de mayo debido a la
-							pandemia del {"COVID-19"}. En los próximos días, les estaremos informando sobre los planes
-							para el aprendizaje remoto y detalles adicionales relacionados con las escuelas.
+							Un grupo de personas trabajadoras de la salud se encontraban frente a los manifestantes de ReOpen NC. 
+		<br /> Algunos manifestantes de ReOpen comenzaron a gritar y molestar a los que protestaban.Pero los trabajadores de la salud solo estaban parados frente a los manifestantes de #ReOpenNC, manteniendo la distancia social y sin responder a las agresiones.
+		<br /> @NewsLatinoToday
 						</p>
 						<div className="espacio2" />
 						<Link to="/">
