@@ -68,10 +68,10 @@ const getState = ({ getStore, getActions, setStore }) => {
 			],
 			noticias1: [
 				{
-					date: "Marzo 26,2020",
+					date: "Abril 25,2020",
 
 					image:
-						"https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/90941247_544128246238339_4720608970329292800_n.jpg?_nc_cat=103&_nc_sid=b386c4&_nc_ohc=8ri3-iQuas8AX-pH4Je&_nc_ht=scontent-iad3-1.xx&oh=b30dd2ae8b711151c228ff4892e3ca1b&oe=5EA27169",
+						"https://image.freepik.com/vector-gratis/grupo-personas-discute-noticias-redes-sociales_106299-61.jpg",
 					type: "NOTICIAS",
 
 					title: "Ser Bilingue es un super poder!"
