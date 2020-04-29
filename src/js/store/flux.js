@@ -105,7 +105,7 @@ const getState = ({ getStore, getActions, setStore }) => {
 						"https://www.newsobserver.com/latest-news/4x08du/picture242003331/alternates/FREE_768/RAL_PROTEST04-041420-EDH.JPG",
 					type: "COMUNIDAD",
 					title:
-					"Trabajadores de la salud le hacen frente a los {'"ReOpenNC"'}"
+					"Trabajadores de la salud le hacen frente a los ReOpenNC"
 				}
 			],
 			comunidad2: [
